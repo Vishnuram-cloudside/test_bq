@@ -1,0 +1,1468 @@
+[0m10:54:05.294595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275A65F7310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275A65BBF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275A65C7050>]}
+
+
+============================== 10:54:05.294595 | 29073ea0-203f-4f1a-8243-1532d76bf352 ==============================
+[0m10:54:05.294595 [info ] [MainThread]: Running with dbt=1.5.2
+[0m10:54:05.294595 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\vishn\\dbt\\dbt_test\\test3\\logs', 'profiles_dir': 'C:\\Users\\vishn\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m10:54:05.294595 [info ] [MainThread]: dbt version: 1.5.2
+[0m10:54:05.294595 [info ] [MainThread]: python version: 3.11.4
+[0m10:54:05.294595 [info ] [MainThread]: python path: C:\Users\vishn\AppData\Local\Programs\Python\Python311\python.exe
+[0m10:54:05.294595 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m10:54:05.294595 [info ] [MainThread]: Using profiles.yml file at C:\Users\vishn\.dbt\profiles.yml
+[0m10:54:05.294595 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\vishn\dbt\dbt_test\test3\dbt_project.yml
+[0m10:54:05.294595 [info ] [MainThread]: Configuration:
+[0m10:54:05.310191 [error] [MainThread]: Encountered an error:
+Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Runtime Error
+    Syntax error near line 36
+    ------------------------------
+    33 |       job_execution_timeout_seconds: 300
+    34 |       job_retries: 1
+    35 |       keyfile: C:\Users\vishn\Downloads\cloudside_key.json
+    36 |       location: asia-south1:
+    37 |       method: service-account
+    38 |       priority: interactive
+    39 |       project: cloudside-academy
+    
+    Raw Error:
+    ------------------------------
+    mapping values are not allowed in this context
+      in "<unicode string>", line 36, column 28
+  
+[0m10:54:05.310191 [debug] [MainThread]: Command `dbt debug` failed at 10:54:05.310191 after 0.03 seconds
+[0m10:54:05.310191 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275A62D6150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275A6651150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275A6650D10>]}
+[0m10:54:05.310191 [debug] [MainThread]: Flushing usage events
+[0m10:55:09.986130 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024512402490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000245123D0B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002450FFA3210>]}
+
+
+============================== 10:55:09.986130 | b70e5d7c-e718-4d6b-aadf-4786d88180c2 ==============================
+[0m10:55:09.986130 [info ] [MainThread]: Running with dbt=1.5.2
+[0m10:55:09.986130 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\vishn\\dbt\\dbt_test\\test3\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\vishn\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m10:55:09.986130 [info ] [MainThread]: dbt version: 1.5.2
+[0m10:55:09.986130 [info ] [MainThread]: python version: 3.11.4
+[0m10:55:09.986130 [info ] [MainThread]: python path: C:\Users\vishn\AppData\Local\Programs\Python\Python311\python.exe
+[0m10:55:09.986130 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m10:55:09.986130 [info ] [MainThread]: Using profiles.yml file at C:\Users\vishn\.dbt\profiles.yml
+[0m10:55:09.986130 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\vishn\dbt\dbt_test\test3\dbt_project.yml
+[0m10:55:09.986130 [info ] [MainThread]: Configuration:
+[0m10:55:10.194461 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m10:55:10.209992 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m10:55:10.209992 [info ] [MainThread]: Required dependencies:
+[0m10:55:10.209992 [debug] [MainThread]: Executing "git --help"
+[0m10:55:10.312738 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:55:10.328370 [debug] [MainThread]: STDERR: "b''"
+[0m10:55:10.328370 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m10:55:10.328370 [info ] [MainThread]: Connection:
+[0m10:55:10.328370 [info ] [MainThread]:   method: service-account
+[0m10:55:10.328370 [info ] [MainThread]:   database: cloudside-academy
+[0m10:55:10.328370 [info ] [MainThread]:   schema: Dbt_test
+[0m10:55:10.328370 [info ] [MainThread]:   location: asia-south1
+[0m10:55:10.328370 [info ] [MainThread]:   priority: interactive
+[0m10:55:10.328370 [info ] [MainThread]:   timeout_seconds: 300
+[0m10:55:10.328370 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m10:55:10.328370 [info ] [MainThread]:   execution_project: cloudside-academy
+[0m10:55:10.328370 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m10:55:10.328370 [info ] [MainThread]:   job_retries: 1
+[0m10:55:10.328370 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m10:55:10.328370 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m10:55:10.328370 [info ] [MainThread]:   gcs_bucket: None
+[0m10:55:10.328370 [info ] [MainThread]: Registered adapter: bigquery=1.5.3
+[0m10:55:10.328370 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m10:55:10.328370 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:55:10.375668 [debug] [MainThread]: On debug: select 1 as id
+[0m10:55:11.827244 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:38ed9a47-28bc-47c6-8908-8493b8d80a27&page=queryresults
+[0m10:55:11.827244 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m10:55:11.827244 [info ] [MainThread]: [32mAll checks passed![0m
+[0m10:55:11.827244 [debug] [MainThread]: Command `dbt debug` succeeded at 10:55:11.827244 after 1.88 seconds
+[0m10:55:11.827244 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m10:55:11.842975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002450FFA3210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000245126E77D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000245126E6910>]}
+[0m10:55:11.842975 [debug] [MainThread]: Flushing usage events
+[0m10:58:04.426868 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021263209C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000212632371D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021263569C90>]}
+
+
+============================== 10:58:04.426868 | 7646e9b9-9ff7-4b10-9743-9452b19651a6 ==============================
+[0m10:58:04.426868 [info ] [MainThread]: Running with dbt=1.5.2
+[0m10:58:04.426868 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\vishn\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\vishn\\dbt\\dbt_test\\test3\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m10:58:04.426868 [info ] [MainThread]: dbt version: 1.5.2
+[0m10:58:04.426868 [info ] [MainThread]: python version: 3.11.4
+[0m10:58:04.426868 [info ] [MainThread]: python path: C:\Users\vishn\AppData\Local\Programs\Python\Python311\python.exe
+[0m10:58:04.426868 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m10:58:04.426868 [info ] [MainThread]: Using profiles.yml file at C:\Users\vishn\.dbt\profiles.yml
+[0m10:58:04.426868 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\vishn\dbt\dbt_test\test3\dbt_project.yml
+[0m10:58:04.442438 [info ] [MainThread]: Configuration:
+[0m10:58:04.670780 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m10:58:04.678388 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m10:58:04.678388 [info ] [MainThread]: Required dependencies:
+[0m10:58:04.678388 [debug] [MainThread]: Executing "git --help"
+[0m10:58:04.757331 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:58:04.757331 [debug] [MainThread]: STDERR: "b''"
+[0m10:58:04.757331 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m10:58:04.757331 [info ] [MainThread]: Connection:
+[0m10:58:04.757331 [info ] [MainThread]:   method: service-account
+[0m10:58:04.757331 [info ] [MainThread]:   database: cloudside-academy
+[0m10:58:04.757331 [info ] [MainThread]:   schema: Dbt_test
+[0m10:58:04.757331 [info ] [MainThread]:   location: asia-south1
+[0m10:58:04.757331 [info ] [MainThread]:   priority: interactive
+[0m10:58:04.757331 [info ] [MainThread]:   timeout_seconds: 300
+[0m10:58:04.757331 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m10:58:04.757331 [info ] [MainThread]:   execution_project: cloudside-academy
+[0m10:58:04.766640 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m10:58:04.766640 [info ] [MainThread]:   job_retries: 1
+[0m10:58:04.766640 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m10:58:04.767791 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m10:58:04.767791 [info ] [MainThread]:   gcs_bucket: None
+[0m10:58:04.768650 [info ] [MainThread]: Registered adapter: bigquery=1.5.3
+[0m10:58:04.768650 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m10:58:04.768650 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:58:04.789190 [debug] [MainThread]: On debug: select 1 as id
+[0m10:58:06.283179 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:111ff896-7e5c-4492-9c1f-7775e98f032e&page=queryresults
+[0m10:58:06.283179 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m10:58:06.283179 [info ] [MainThread]: [32mAll checks passed![0m
+[0m10:58:06.283179 [debug] [MainThread]: Command `dbt debug` succeeded at 10:58:06.283179 after 1.89 seconds
+[0m10:58:06.298917 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m10:58:06.298917 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021263186410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021264245510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000212634A4A90>]}
+[0m10:58:06.298917 [debug] [MainThread]: Flushing usage events
+[0m10:58:14.803793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254EFA77AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254EFBD0FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254EFE1C790>]}
+
+
+============================== 10:58:14.803793 | 399d5d68-eaf5-47d4-96b6-ef9f30bcdaaa ==============================
+[0m10:58:14.803793 [info ] [MainThread]: Running with dbt=1.5.2
+[0m10:58:14.812698 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\vishn\\dbt\\dbt_test\\test3\\logs', 'profiles_dir': 'C:\\Users\\vishn\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m10:58:15.024244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '399d5d68-eaf5-47d4-96b6-ef9f30bcdaaa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254F0C20990>]}
+[0m10:58:15.024244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '399d5d68-eaf5-47d4-96b6-ef9f30bcdaaa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254F0EC4050>]}
+[0m10:58:15.024244 [info ] [MainThread]: Registered adapter: bigquery=1.5.3
+[0m10:58:15.039872 [debug] [MainThread]: checksum: 2435fa7be9fcfa6ffe15da8f202ddc09867bf7d6308330064299ccb85c8646b5, vars: {}, profile: , target: , version: 1.5.2
+[0m10:58:15.039872 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m10:58:15.039872 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '399d5d68-eaf5-47d4-96b6-ef9f30bcdaaa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254F0C22A10>]}
+[0m10:58:15.481930 [debug] [MainThread]: 1699: static parser successfully parsed example\my_first_dbt_model.sql
+[0m10:58:15.500763 [debug] [MainThread]: 1699: static parser successfully parsed example\my_second_dbt_model.sql
+[0m10:58:15.500763 [debug] [MainThread]: 1699: static parser successfully parsed example\intermediate\join.sql
+[0m10:58:15.506984 [debug] [MainThread]: 1699: static parser successfully parsed example\mart\dbt_geometry.sql
+[0m10:58:15.509197 [debug] [MainThread]: 1699: static parser successfully parsed example\staging\geometry.sql
+[0m10:58:15.513493 [debug] [MainThread]: 1699: static parser successfully parsed example\staging\locations.sql
+[0m10:58:15.545233 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.test3.example.staging.intermediate.mart
+- models.test3.example.staging.intermediate
+[0m10:58:15.545233 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '399d5d68-eaf5-47d4-96b6-ef9f30bcdaaa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254F0473C50>]}
+[0m10:58:15.545233 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '399d5d68-eaf5-47d4-96b6-ef9f30bcdaaa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254F2041C10>]}
+[0m10:58:15.561206 [info ] [MainThread]: Found 6 models, 4 tests, 0 snapshots, 0 analyses, 357 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m10:58:15.561206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '399d5d68-eaf5-47d4-96b6-ef9f30bcdaaa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254EC165B10>]}
+[0m10:58:15.561206 [info ] [MainThread]: 
+[0m10:58:15.561206 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m10:58:15.566295 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_cloudside-academy'
+[0m10:58:15.566295 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:58:17.623259 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_cloudside-academy_Dbt_test'
+[0m10:58:17.623259 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:58:18.466946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '399d5d68-eaf5-47d4-96b6-ef9f30bcdaaa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254F0EAB990>]}
+[0m10:58:18.466946 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m10:58:18.466946 [info ] [MainThread]: 
+[0m10:58:18.482479 [debug] [Thread-1 (]: Began running node model.test3.geometry
+[0m10:58:18.482479 [debug] [Thread-2 (]: Began running node model.test3.locations
+[0m10:58:18.482479 [debug] [Thread-3 (]: Began running node model.test3.my_first_dbt_model
+[0m10:58:18.482479 [info ] [Thread-1 (]: 1 of 5 START sql table model Dbt_test.geometry ................................. [RUN]
+[0m10:58:18.482479 [info ] [Thread-2 (]: 2 of 5 START sql table model Dbt_test.locations ................................ [RUN]
+[0m10:58:18.482479 [info ] [Thread-3 (]: 3 of 5 START sql table model Dbt_test.my_first_dbt_model ....................... [RUN]
+[0m10:58:18.482479 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.test3.geometry'
+[0m10:58:18.482479 [debug] [Thread-2 (]: Acquiring new bigquery connection 'model.test3.locations'
+[0m10:58:18.498602 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.test3.my_first_dbt_model'
+[0m10:58:18.498602 [debug] [Thread-1 (]: Began compiling node model.test3.geometry
+[0m10:58:18.498602 [debug] [Thread-2 (]: Began compiling node model.test3.locations
+[0m10:58:18.500204 [debug] [Thread-3 (]: Began compiling node model.test3.my_first_dbt_model
+[0m10:58:18.500204 [debug] [Thread-1 (]: Writing injected SQL for node "model.test3.geometry"
+[0m10:58:18.500204 [debug] [Thread-2 (]: Writing injected SQL for node "model.test3.locations"
+[0m10:58:18.500204 [debug] [Thread-3 (]: Writing injected SQL for node "model.test3.my_first_dbt_model"
+[0m10:58:18.507824 [debug] [Thread-3 (]: Timing info for model.test3.my_first_dbt_model (compile): 10:58:18.500204 => 10:58:18.507824
+[0m10:58:18.508330 [debug] [Thread-2 (]: Timing info for model.test3.locations (compile): 10:58:18.500204 => 10:58:18.508330
+[0m10:58:18.508840 [debug] [Thread-3 (]: Began executing node model.test3.my_first_dbt_model
+[0m10:58:18.508840 [debug] [Thread-1 (]: Timing info for model.test3.geometry (compile): 10:58:18.500204 => 10:58:18.508840
+[0m10:58:18.508840 [debug] [Thread-2 (]: Began executing node model.test3.locations
+[0m10:58:18.529630 [debug] [Thread-3 (]: Writing runtime sql for node "model.test3.my_first_dbt_model"
+[0m10:58:18.529630 [debug] [Thread-1 (]: Began executing node model.test3.geometry
+[0m10:58:18.529630 [debug] [Thread-2 (]: Writing runtime sql for node "model.test3.locations"
+[0m10:58:18.529630 [debug] [Thread-1 (]: Writing runtime sql for node "model.test3.geometry"
+[0m10:58:18.541105 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m10:58:18.541852 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m10:58:18.542985 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m10:58:18.561319 [debug] [Thread-1 (]: On model.test3.geometry: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.geometry"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`geometry`
+    
+    
+
+    OPTIONS()
+    as (
+      select * from `cloudside-academy.Demo_dbt.geometry`
+    );
+  
+[0m10:58:18.576942 [debug] [Thread-3 (]: On model.test3.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.my_first_dbt_model"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`my_first_dbt_model`
+    
+    
+
+    OPTIONS()
+    as (
+      /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    );
+  
+[0m10:58:18.576942 [debug] [Thread-2 (]: On model.test3.locations: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.locations"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`locations`
+    
+    
+
+    OPTIONS()
+    as (
+      select * from `cloudside-academy.Demo_dbt.locations`
+    );
+  
+[0m10:58:21.283807 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:f746b2df-afb7-44f4-8e21-6f1ec8912202&page=queryresults
+[0m10:58:21.299444 [debug] [Thread-3 (]: Timing info for model.test3.my_first_dbt_model (execute): 10:58:18.509755 => 10:58:21.299444
+[0m10:58:21.299444 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '399d5d68-eaf5-47d4-96b6-ef9f30bcdaaa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254F2024950>]}
+[0m10:58:21.299444 [info ] [Thread-3 (]: 3 of 5 OK created sql table model Dbt_test.my_first_dbt_model .................. [[32mCREATE TABLE (2.0 rows, 0 processed)[0m in 2.82s]
+[0m10:58:21.299444 [debug] [Thread-3 (]: Finished running node model.test3.my_first_dbt_model
+[0m10:58:21.299444 [debug] [Thread-4 (]: Began running node model.test3.my_second_dbt_model
+[0m10:58:21.299444 [info ] [Thread-4 (]: 4 of 5 START sql view model Dbt_test.my_second_dbt_model ....................... [RUN]
+[0m10:58:21.299444 [debug] [Thread-4 (]: Acquiring new bigquery connection 'model.test3.my_second_dbt_model'
+[0m10:58:21.315106 [debug] [Thread-4 (]: Began compiling node model.test3.my_second_dbt_model
+[0m10:58:21.316610 [debug] [Thread-4 (]: Writing injected SQL for node "model.test3.my_second_dbt_model"
+[0m10:58:21.316610 [debug] [Thread-4 (]: Timing info for model.test3.my_second_dbt_model (compile): 10:58:21.315106 => 10:58:21.316610
+[0m10:58:21.316610 [debug] [Thread-4 (]: Began executing node model.test3.my_second_dbt_model
+[0m10:58:21.331117 [debug] [Thread-4 (]: Writing runtime sql for node "model.test3.my_second_dbt_model"
+[0m10:58:21.331117 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m10:58:21.362436 [debug] [Thread-4 (]: On model.test3.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.my_second_dbt_model"} */
+
+
+  create or replace view `cloudside-academy`.`Dbt_test`.`my_second_dbt_model`
+  OPTIONS()
+  as -- Use the `ref` function to select from other models
+
+select *
+from `cloudside-academy`.`Dbt_test`.`my_first_dbt_model`
+where id = 1;
+
+
+[0m10:58:21.851249 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:725e7e41-94dc-4433-baae-19ac928adb2f&page=queryresults
+[0m10:58:21.851249 [debug] [Thread-1 (]: Timing info for model.test3.geometry (execute): 10:58:18.529630 => 10:58:21.851249
+[0m10:58:21.851249 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '399d5d68-eaf5-47d4-96b6-ef9f30bcdaaa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254F20C5E10>]}
+[0m10:58:21.851249 [info ] [Thread-1 (]: 1 of 5 OK created sql table model Dbt_test.geometry ............................ [[32mCREATE TABLE (1.0 rows, 134.0 Bytes processed)[0m in 3.37s]
+[0m10:58:21.851249 [debug] [Thread-1 (]: Finished running node model.test3.geometry
+[0m10:58:22.103607 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:0b57c9fe-950d-4f0e-ab6b-814af3f7b30b&page=queryresults
+[0m10:58:22.103607 [debug] [Thread-2 (]: Timing info for model.test3.locations (execute): 10:58:18.529630 => 10:58:22.103607
+[0m10:58:22.103607 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '399d5d68-eaf5-47d4-96b6-ef9f30bcdaaa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254F203F950>]}
+[0m10:58:22.103607 [info ] [Thread-2 (]: 2 of 5 OK created sql table model Dbt_test.locations ........................... [[32mCREATE TABLE (3.0 rows, 402.0 Bytes processed)[0m in 3.62s]
+[0m10:58:22.119256 [debug] [Thread-2 (]: Finished running node model.test3.locations
+[0m10:58:22.119256 [debug] [Thread-3 (]: Began running node model.test3.join
+[0m10:58:22.119256 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.test3.my_first_dbt_model, now model.test3.join)
+[0m10:58:22.119256 [debug] [Thread-3 (]: Began compiling node model.test3.join
+[0m10:58:22.119256 [debug] [Thread-3 (]: Writing injected SQL for node "model.test3.join"
+[0m10:58:22.132654 [debug] [Thread-3 (]: Timing info for model.test3.join (compile): 10:58:22.119256 => 10:58:22.132654
+[0m10:58:22.132654 [debug] [Thread-3 (]: Finished running node model.test3.join
+[0m10:58:22.135170 [debug] [Thread-2 (]: Began running node model.test3.dbt_geometry
+[0m10:58:22.135170 [info ] [Thread-2 (]: 5 of 5 START sql table model Dbt_test.dbt_geometry ............................. [RUN]
+[0m10:58:22.135170 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.test3.locations, now model.test3.dbt_geometry)
+[0m10:58:22.135170 [debug] [Thread-2 (]: Began compiling node model.test3.dbt_geometry
+[0m10:58:22.135170 [debug] [Thread-2 (]: Writing injected SQL for node "model.test3.dbt_geometry"
+[0m10:58:22.135170 [debug] [Thread-2 (]: Timing info for model.test3.dbt_geometry (compile): 10:58:22.135170 => 10:58:22.135170
+[0m10:58:22.135170 [debug] [Thread-2 (]: Began executing node model.test3.dbt_geometry
+[0m10:58:22.135170 [debug] [Thread-2 (]: Writing runtime sql for node "model.test3.dbt_geometry"
+[0m10:58:22.135170 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m10:58:22.197783 [debug] [Thread-2 (]: On model.test3.dbt_geometry: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.dbt_geometry"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`dbt_geometry`
+    
+    
+
+    OPTIONS()
+    as (
+      with __dbt__cte__join as (
+
+
+select * from `cloudside-academy`.`Dbt_test`.`geometry` a
+inner join `cloudside-academy`.`Dbt_test`.`locations` b
+on a.id = b.id
+)“”
+
+select * from __dbt__cte__join
+    );
+  
+[0m10:58:22.575386 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:bf07df1c-0695-4097-a38a-97c995d7635f&page=queryresults
+[0m10:58:22.575386 [debug] [Thread-4 (]: Timing info for model.test3.my_second_dbt_model (execute): 10:58:21.316610 => 10:58:22.575386
+[0m10:58:22.575386 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '399d5d68-eaf5-47d4-96b6-ef9f30bcdaaa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254F2107A90>]}
+[0m10:58:22.575386 [info ] [Thread-4 (]: 4 of 5 OK created sql view model Dbt_test.my_second_dbt_model .................. [[32mCREATE VIEW (0 processed)[0m in 1.28s]
+[0m10:58:22.581575 [debug] [Thread-4 (]: Finished running node model.test3.my_second_dbt_model
+[0m10:58:23.121966 [debug] [Thread-2 (]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Syntax error: Illegal input character "\\342" at [18:2]')
+[0m10:58:24.175132 [error] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:d0cfb027-5d5e-4572-b53f-987fef0844a5&page=queryresults
+[0m10:58:24.175132 [debug] [Thread-2 (]: Timing info for model.test3.dbt_geometry (execute): 10:58:22.135170 => 10:58:24.175132
+[0m10:58:24.194674 [debug] [Thread-2 (]: Database Error in model dbt_geometry (models\example\mart\dbt_geometry.sql)
+  Syntax error: Illegal input character "\342" at [18:2]
+  compiled Code at target\run\test3\models\example\mart\dbt_geometry.sql
+[0m10:58:24.206709 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '399d5d68-eaf5-47d4-96b6-ef9f30bcdaaa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254F20FD290>]}
+[0m10:58:24.206709 [error] [Thread-2 (]: 5 of 5 ERROR creating sql table model Dbt_test.dbt_geometry .................... [[31mERROR[0m in 2.07s]
+[0m10:58:24.206709 [debug] [Thread-2 (]: Finished running node model.test3.dbt_geometry
+[0m10:58:24.206709 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:58:24.206709 [debug] [MainThread]: Connection 'list_cloudside-academy' was properly closed.
+[0m10:58:24.206709 [debug] [MainThread]: Connection 'list_cloudside-academy_Dbt_test' was properly closed.
+[0m10:58:24.206709 [debug] [MainThread]: Connection 'model.test3.geometry' was properly closed.
+[0m10:58:24.206709 [debug] [MainThread]: Connection 'model.test3.dbt_geometry' was properly closed.
+[0m10:58:24.206709 [debug] [MainThread]: Connection 'model.test3.join' was properly closed.
+[0m10:58:24.206709 [debug] [MainThread]: Connection 'model.test3.my_second_dbt_model' was properly closed.
+[0m10:58:24.206709 [info ] [MainThread]: 
+[0m10:58:24.206709 [info ] [MainThread]: Finished running 4 table models, 1 view model in 0 hours 0 minutes and 8.65 seconds (8.65s).
+[0m10:58:24.206709 [debug] [MainThread]: Command end result
+[0m10:58:24.225514 [info ] [MainThread]: 
+[0m10:58:24.225514 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m10:58:24.225514 [info ] [MainThread]: 
+[0m10:58:24.235768 [error] [MainThread]: [33mDatabase Error in model dbt_geometry (models\example\mart\dbt_geometry.sql)[0m
+[0m10:58:24.235768 [error] [MainThread]:   Syntax error: Illegal input character "\342" at [18:2]
+[0m10:58:24.238275 [error] [MainThread]:   compiled Code at target\run\test3\models\example\mart\dbt_geometry.sql
+[0m10:58:24.238275 [info ] [MainThread]: 
+[0m10:58:24.238275 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=1 SKIP=0 TOTAL=5
+[0m10:58:24.238275 [debug] [MainThread]: Command `dbt run` failed at 10:58:24.238275 after 9.46 seconds
+[0m10:58:24.238275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254F0452310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254F0450A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254F0451410>]}
+[0m10:58:24.238275 [debug] [MainThread]: Flushing usage events
+[0m11:02:35.717902 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022010F81710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220110C9850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022010DC27D0>]}
+
+
+============================== 11:02:35.717902 | 33b632ad-8fc2-4bb2-91a6-2684d7607104 ==============================
+[0m11:02:35.717902 [info ] [MainThread]: Running with dbt=1.5.2
+[0m11:02:35.717902 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\vishn\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\vishn\\dbt\\dbt_test\\test3\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m11:02:35.960994 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '33b632ad-8fc2-4bb2-91a6-2684d7607104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022011E40990>]}
+[0m11:02:35.971094 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '33b632ad-8fc2-4bb2-91a6-2684d7607104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022011044410>]}
+[0m11:02:35.971094 [info ] [MainThread]: Registered adapter: bigquery=1.5.3
+[0m11:02:35.971094 [debug] [MainThread]: checksum: 2435fa7be9fcfa6ffe15da8f202ddc09867bf7d6308330064299ccb85c8646b5, vars: {}, profile: , target: , version: 1.5.2
+[0m11:02:36.018086 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m11:02:36.018086 [debug] [MainThread]: Partial parsing: updated file: test3://models\example\mart\dbt_geometry.sql
+[0m11:02:36.018086 [debug] [MainThread]: 1699: static parser successfully parsed example\mart\dbt_geometry.sql
+[0m11:02:36.033603 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.test3.example.staging.intermediate
+- models.test3.example.staging.intermediate.mart
+[0m11:02:36.033603 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '33b632ad-8fc2-4bb2-91a6-2684d7607104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022012194D10>]}
+[0m11:02:36.049268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '33b632ad-8fc2-4bb2-91a6-2684d7607104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022012145550>]}
+[0m11:02:36.049268 [info ] [MainThread]: Found 6 models, 4 tests, 0 snapshots, 0 analyses, 357 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m11:02:36.049268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '33b632ad-8fc2-4bb2-91a6-2684d7607104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220120D5590>]}
+[0m11:02:36.049268 [info ] [MainThread]: 
+[0m11:02:36.061377 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m11:02:36.061377 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_cloudside-academy'
+[0m11:02:36.061377 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:02:38.157747 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_cloudside-academy_Dbt_test'
+[0m11:02:38.157747 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:02:38.818022 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '33b632ad-8fc2-4bb2-91a6-2684d7607104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022011E1EAD0>]}
+[0m11:02:38.833671 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m11:02:38.833671 [info ] [MainThread]: 
+[0m11:02:38.833671 [debug] [Thread-1 (]: Began running node model.test3.geometry
+[0m11:02:38.833671 [debug] [Thread-2 (]: Began running node model.test3.locations
+[0m11:02:38.833671 [debug] [Thread-3 (]: Began running node model.test3.my_first_dbt_model
+[0m11:02:38.833671 [info ] [Thread-1 (]: 1 of 5 START sql table model Dbt_test.geometry ................................. [RUN]
+[0m11:02:38.833671 [info ] [Thread-2 (]: 2 of 5 START sql table model Dbt_test.locations ................................ [RUN]
+[0m11:02:38.833671 [info ] [Thread-3 (]: 3 of 5 START sql table model Dbt_test.my_first_dbt_model ....................... [RUN]
+[0m11:02:38.833671 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.test3.geometry'
+[0m11:02:38.833671 [debug] [Thread-2 (]: Acquiring new bigquery connection 'model.test3.locations'
+[0m11:02:38.833671 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.test3.my_first_dbt_model'
+[0m11:02:38.833671 [debug] [Thread-1 (]: Began compiling node model.test3.geometry
+[0m11:02:38.833671 [debug] [Thread-2 (]: Began compiling node model.test3.locations
+[0m11:02:38.833671 [debug] [Thread-3 (]: Began compiling node model.test3.my_first_dbt_model
+[0m11:02:38.849315 [debug] [Thread-1 (]: Writing injected SQL for node "model.test3.geometry"
+[0m11:02:38.849315 [debug] [Thread-2 (]: Writing injected SQL for node "model.test3.locations"
+[0m11:02:38.849315 [debug] [Thread-3 (]: Writing injected SQL for node "model.test3.my_first_dbt_model"
+[0m11:02:38.849315 [debug] [Thread-1 (]: Timing info for model.test3.geometry (compile): 11:02:38.833671 => 11:02:38.849315
+[0m11:02:38.849315 [debug] [Thread-2 (]: Timing info for model.test3.locations (compile): 11:02:38.849315 => 11:02:38.849315
+[0m11:02:38.849315 [debug] [Thread-1 (]: Began executing node model.test3.geometry
+[0m11:02:38.849315 [debug] [Thread-3 (]: Timing info for model.test3.my_first_dbt_model (compile): 11:02:38.849315 => 11:02:38.849315
+[0m11:02:38.865008 [debug] [Thread-3 (]: Began executing node model.test3.my_first_dbt_model
+[0m11:02:38.849315 [debug] [Thread-2 (]: Began executing node model.test3.locations
+[0m11:02:38.865008 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:02:38.865008 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m11:02:38.870126 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m11:02:39.558331 [debug] [Thread-1 (]: Writing runtime sql for node "model.test3.geometry"
+[0m11:02:39.558331 [debug] [Thread-3 (]: Writing runtime sql for node "model.test3.my_first_dbt_model"
+[0m11:02:39.558331 [debug] [Thread-1 (]: On model.test3.geometry: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.geometry"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`geometry`
+    
+    
+
+    OPTIONS()
+    as (
+      select * from `cloudside-academy.Demo_dbt.geometry`
+    );
+  
+[0m11:02:39.558331 [debug] [Thread-3 (]: On model.test3.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.my_first_dbt_model"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`my_first_dbt_model`
+    
+    
+
+    OPTIONS()
+    as (
+      /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    );
+  
+[0m11:02:39.558331 [debug] [Thread-2 (]: Writing runtime sql for node "model.test3.locations"
+[0m11:02:39.558331 [debug] [Thread-2 (]: On model.test3.locations: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.locations"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`locations`
+    
+    
+
+    OPTIONS()
+    as (
+      select * from `cloudside-academy.Demo_dbt.locations`
+    );
+  
+[0m11:02:41.395838 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:330cce65-f8d8-490c-aca0-afccb904e6fd&page=queryresults
+[0m11:02:41.411207 [debug] [Thread-3 (]: Timing info for model.test3.my_first_dbt_model (execute): 11:02:38.865008 => 11:02:41.411207
+[0m11:02:41.411207 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '33b632ad-8fc2-4bb2-91a6-2684d7607104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002201226A2D0>]}
+[0m11:02:41.411207 [info ] [Thread-3 (]: 3 of 5 OK created sql table model Dbt_test.my_first_dbt_model .................. [[32mCREATE TABLE (2.0 rows, 0 processed)[0m in 2.58s]
+[0m11:02:41.411207 [debug] [Thread-3 (]: Finished running node model.test3.my_first_dbt_model
+[0m11:02:41.411207 [debug] [Thread-4 (]: Began running node model.test3.my_second_dbt_model
+[0m11:02:41.411207 [info ] [Thread-4 (]: 4 of 5 START sql view model Dbt_test.my_second_dbt_model ....................... [RUN]
+[0m11:02:41.411207 [debug] [Thread-4 (]: Acquiring new bigquery connection 'model.test3.my_second_dbt_model'
+[0m11:02:41.411207 [debug] [Thread-4 (]: Began compiling node model.test3.my_second_dbt_model
+[0m11:02:41.426933 [debug] [Thread-4 (]: Writing injected SQL for node "model.test3.my_second_dbt_model"
+[0m11:02:41.426933 [debug] [Thread-4 (]: Timing info for model.test3.my_second_dbt_model (compile): 11:02:41.411207 => 11:02:41.426933
+[0m11:02:41.426933 [debug] [Thread-4 (]: Began executing node model.test3.my_second_dbt_model
+[0m11:02:41.478443 [debug] [Thread-4 (]: Writing runtime sql for node "model.test3.my_second_dbt_model"
+[0m11:02:41.478443 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m11:02:41.506184 [debug] [Thread-4 (]: On model.test3.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.my_second_dbt_model"} */
+
+
+  create or replace view `cloudside-academy`.`Dbt_test`.`my_second_dbt_model`
+  OPTIONS()
+  as -- Use the `ref` function to select from other models
+
+select *
+from `cloudside-academy`.`Dbt_test`.`my_first_dbt_model`
+where id = 1;
+
+
+[0m11:02:41.616140 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:cc2a93d3-ee21-4f9d-a14d-f31f78ea64e6&page=queryresults
+[0m11:02:41.616140 [debug] [Thread-1 (]: Timing info for model.test3.geometry (execute): 11:02:38.849315 => 11:02:41.616140
+[0m11:02:41.616140 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '33b632ad-8fc2-4bb2-91a6-2684d7607104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022012115C10>]}
+[0m11:02:41.616140 [info ] [Thread-1 (]: 1 of 5 OK created sql table model Dbt_test.geometry ............................ [[32mCREATE TABLE (1.0 rows, 134.0 Bytes processed)[0m in 2.78s]
+[0m11:02:41.616140 [debug] [Thread-1 (]: Finished running node model.test3.geometry
+[0m11:02:41.835915 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:bc2adbe9-3f22-4b59-8fcc-cccbc23af79b&page=queryresults
+[0m11:02:41.851301 [debug] [Thread-2 (]: Timing info for model.test3.locations (execute): 11:02:38.865008 => 11:02:41.851301
+[0m11:02:41.854765 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '33b632ad-8fc2-4bb2-91a6-2684d7607104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022012107050>]}
+[0m11:02:41.855783 [info ] [Thread-2 (]: 2 of 5 OK created sql table model Dbt_test.locations ........................... [[32mCREATE TABLE (3.0 rows, 402.0 Bytes processed)[0m in 3.02s]
+[0m11:02:41.857906 [debug] [Thread-2 (]: Finished running node model.test3.locations
+[0m11:02:41.857906 [debug] [Thread-3 (]: Began running node model.test3.join
+[0m11:02:41.857906 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.test3.my_first_dbt_model, now model.test3.join)
+[0m11:02:41.857906 [debug] [Thread-3 (]: Began compiling node model.test3.join
+[0m11:02:41.857906 [debug] [Thread-3 (]: Writing injected SQL for node "model.test3.join"
+[0m11:02:41.857906 [debug] [Thread-3 (]: Timing info for model.test3.join (compile): 11:02:41.857906 => 11:02:41.857906
+[0m11:02:41.857906 [debug] [Thread-3 (]: Finished running node model.test3.join
+[0m11:02:41.857906 [debug] [Thread-2 (]: Began running node model.test3.dbt_geometry
+[0m11:02:41.857906 [info ] [Thread-2 (]: 5 of 5 START sql table model Dbt_test.dbt_geometry ............................. [RUN]
+[0m11:02:41.857906 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.test3.locations, now model.test3.dbt_geometry)
+[0m11:02:41.867420 [debug] [Thread-2 (]: Began compiling node model.test3.dbt_geometry
+[0m11:02:41.867420 [debug] [Thread-2 (]: Writing injected SQL for node "model.test3.dbt_geometry"
+[0m11:02:41.867420 [debug] [Thread-2 (]: Timing info for model.test3.dbt_geometry (compile): 11:02:41.867420 => 11:02:41.867420
+[0m11:02:41.867420 [debug] [Thread-2 (]: Began executing node model.test3.dbt_geometry
+[0m11:02:41.867420 [debug] [Thread-2 (]: Writing runtime sql for node "model.test3.dbt_geometry"
+[0m11:02:41.867420 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m11:02:41.899381 [debug] [Thread-2 (]: On model.test3.dbt_geometry: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.dbt_geometry"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`dbt_geometry`
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+with __dbt__cte__join as (
+
+
+select * from `cloudside-academy`.`Dbt_test`.`geometry` a
+inner join `cloudside-academy`.`Dbt_test`.`locations` b
+on a.id = b.id
+)select * from __dbt__cte__join
+    );
+  
+[0m11:02:43.062378 [debug] [Thread-2 (]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('CREATE TABLE has columns with duplicate name coordinates at [14:1]')
+[0m11:02:43.130588 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:ae9f1e07-8908-4317-98a4-1679d9a44c4e&page=queryresults
+[0m11:02:43.130588 [debug] [Thread-4 (]: Timing info for model.test3.my_second_dbt_model (execute): 11:02:41.426933 => 11:02:43.130588
+[0m11:02:43.130588 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '33b632ad-8fc2-4bb2-91a6-2684d7607104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002201103E610>]}
+[0m11:02:43.130588 [info ] [Thread-4 (]: 4 of 5 OK created sql view model Dbt_test.my_second_dbt_model .................. [[32mCREATE VIEW (0 processed)[0m in 1.72s]
+[0m11:02:43.130588 [debug] [Thread-4 (]: Finished running node model.test3.my_second_dbt_model
+[0m11:02:44.588505 [error] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:ded700bc-5dc7-4af5-8d63-8e74ddaa6dca&page=queryresults
+[0m11:02:44.588505 [debug] [Thread-2 (]: Timing info for model.test3.dbt_geometry (execute): 11:02:41.867420 => 11:02:44.588505
+[0m11:02:44.597193 [debug] [Thread-2 (]: Database Error in model dbt_geometry (models\example\mart\dbt_geometry.sql)
+  CREATE TABLE has columns with duplicate name coordinates at [14:1]
+  compiled Code at target\run\test3\models\example\mart\dbt_geometry.sql
+[0m11:02:44.598247 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '33b632ad-8fc2-4bb2-91a6-2684d7607104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220120EC810>]}
+[0m11:02:44.598247 [error] [Thread-2 (]: 5 of 5 ERROR creating sql table model Dbt_test.dbt_geometry .................... [[31mERROR[0m in 2.74s]
+[0m11:02:44.598247 [debug] [Thread-2 (]: Finished running node model.test3.dbt_geometry
+[0m11:02:44.599829 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:02:44.599829 [debug] [MainThread]: Connection 'list_cloudside-academy' was properly closed.
+[0m11:02:44.599829 [debug] [MainThread]: Connection 'list_cloudside-academy_Dbt_test' was properly closed.
+[0m11:02:44.599829 [debug] [MainThread]: Connection 'model.test3.geometry' was properly closed.
+[0m11:02:44.599829 [debug] [MainThread]: Connection 'model.test3.dbt_geometry' was properly closed.
+[0m11:02:44.599829 [debug] [MainThread]: Connection 'model.test3.join' was properly closed.
+[0m11:02:44.599829 [debug] [MainThread]: Connection 'model.test3.my_second_dbt_model' was properly closed.
+[0m11:02:44.599829 [info ] [MainThread]: 
+[0m11:02:44.599829 [info ] [MainThread]: Finished running 4 table models, 1 view model in 0 hours 0 minutes and 8.54 seconds (8.54s).
+[0m11:02:44.605198 [debug] [MainThread]: Command end result
+[0m11:02:44.605198 [info ] [MainThread]: 
+[0m11:02:44.605198 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m11:02:44.605198 [info ] [MainThread]: 
+[0m11:02:44.611395 [error] [MainThread]: [33mDatabase Error in model dbt_geometry (models\example\mart\dbt_geometry.sql)[0m
+[0m11:02:44.612155 [error] [MainThread]:   CREATE TABLE has columns with duplicate name coordinates at [14:1]
+[0m11:02:44.612155 [error] [MainThread]:   compiled Code at target\run\test3\models\example\mart\dbt_geometry.sql
+[0m11:02:44.612155 [info ] [MainThread]: 
+[0m11:02:44.613160 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=1 SKIP=0 TOTAL=5
+[0m11:02:44.613160 [debug] [MainThread]: Command `dbt run` failed at 11:02:44.613160 after 8.95 seconds
+[0m11:02:44.613160 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022011657BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002201164DED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002201164E990>]}
+[0m11:02:44.613160 [debug] [MainThread]: Flushing usage events
+[0m11:09:12.503892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E430E3250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E45A0E810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E45814290>]}
+
+
+============================== 11:09:12.503892 | 2c5d1c16-dfc7-4cad-b8bf-1626a9c387ad ==============================
+[0m11:09:12.503892 [info ] [MainThread]: Running with dbt=1.5.2
+[0m11:09:12.503892 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\vishn\\dbt\\dbt_test\\test3\\logs', 'profiles_dir': 'C:\\Users\\vishn\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m11:09:12.711571 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2c5d1c16-dfc7-4cad-b8bf-1626a9c387ad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E46875ED0>]}
+[0m11:09:12.727155 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2c5d1c16-dfc7-4cad-b8bf-1626a9c387ad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E45433990>]}
+[0m11:09:12.727155 [info ] [MainThread]: Registered adapter: bigquery=1.5.3
+[0m11:09:12.727155 [debug] [MainThread]: checksum: 2435fa7be9fcfa6ffe15da8f202ddc09867bf7d6308330064299ccb85c8646b5, vars: {}, profile: , target: , version: 1.5.2
+[0m11:09:12.776719 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m11:09:12.776719 [debug] [MainThread]: Partial parsing: updated file: test3://models\example\intermediate\join.sql
+[0m11:09:12.785275 [debug] [MainThread]: 1699: static parser successfully parsed example\intermediate\join.sql
+[0m11:09:12.799421 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.test3.example.staging.intermediate
+- models.test3.example.staging.intermediate.mart
+[0m11:09:12.803208 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2c5d1c16-dfc7-4cad-b8bf-1626a9c387ad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E469294D0>]}
+[0m11:09:12.807284 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2c5d1c16-dfc7-4cad-b8bf-1626a9c387ad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E46936D50>]}
+[0m11:09:12.811007 [info ] [MainThread]: Found 6 models, 4 tests, 0 snapshots, 0 analyses, 357 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m11:09:12.811663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2c5d1c16-dfc7-4cad-b8bf-1626a9c387ad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E468C86D0>]}
+[0m11:09:12.811663 [info ] [MainThread]: 
+[0m11:09:12.814676 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m11:09:12.816193 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_cloudside-academy'
+[0m11:09:12.816820 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:09:15.024928 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_cloudside-academy_Dbt_test'
+[0m11:09:15.024928 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:09:15.715238 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2c5d1c16-dfc7-4cad-b8bf-1626a9c387ad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E46613E10>]}
+[0m11:09:15.716374 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m11:09:15.716374 [info ] [MainThread]: 
+[0m11:09:15.716374 [debug] [Thread-1 (]: Began running node model.test3.geometry
+[0m11:09:15.716374 [debug] [Thread-2 (]: Began running node model.test3.locations
+[0m11:09:15.716374 [debug] [Thread-4 (]: Began running node model.test3.my_first_dbt_model
+[0m11:09:15.716374 [info ] [Thread-1 (]: 1 of 5 START sql table model Dbt_test.geometry ................................. [RUN]
+[0m11:09:15.716374 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.test3.geometry'
+[0m11:09:15.716374 [debug] [Thread-1 (]: Began compiling node model.test3.geometry
+[0m11:09:15.729191 [debug] [Thread-1 (]: Writing injected SQL for node "model.test3.geometry"
+[0m11:09:15.729191 [debug] [Thread-1 (]: Timing info for model.test3.geometry (compile): 11:09:15.716374 => 11:09:15.729191
+[0m11:09:15.729191 [debug] [Thread-1 (]: Began executing node model.test3.geometry
+[0m11:09:15.731316 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:09:15.716374 [info ] [Thread-2 (]: 2 of 5 START sql table model Dbt_test.locations ................................ [RUN]
+[0m11:09:15.748573 [debug] [Thread-2 (]: Acquiring new bigquery connection 'model.test3.locations'
+[0m11:09:15.748573 [debug] [Thread-2 (]: Began compiling node model.test3.locations
+[0m11:09:15.750240 [debug] [Thread-2 (]: Writing injected SQL for node "model.test3.locations"
+[0m11:09:15.716374 [info ] [Thread-4 (]: 3 of 5 START sql table model Dbt_test.my_first_dbt_model ....................... [RUN]
+[0m11:09:15.751486 [debug] [Thread-4 (]: Acquiring new bigquery connection 'model.test3.my_first_dbt_model'
+[0m11:09:15.752065 [debug] [Thread-4 (]: Began compiling node model.test3.my_first_dbt_model
+[0m11:09:15.752065 [debug] [Thread-2 (]: Timing info for model.test3.locations (compile): 11:09:15.748573 => 11:09:15.752065
+[0m11:09:15.753141 [debug] [Thread-4 (]: Writing injected SQL for node "model.test3.my_first_dbt_model"
+[0m11:09:15.753141 [debug] [Thread-2 (]: Began executing node model.test3.locations
+[0m11:09:15.755934 [debug] [Thread-4 (]: Timing info for model.test3.my_first_dbt_model (compile): 11:09:15.752065 => 11:09:15.753141
+[0m11:09:15.756750 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m11:09:15.756750 [debug] [Thread-4 (]: Began executing node model.test3.my_first_dbt_model
+[0m11:09:15.758649 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m11:09:16.342003 [debug] [Thread-1 (]: Writing runtime sql for node "model.test3.geometry"
+[0m11:09:16.342003 [debug] [Thread-1 (]: On model.test3.geometry: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.geometry"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`geometry`
+    
+    
+
+    OPTIONS()
+    as (
+      select * from `cloudside-academy.Demo_dbt.geometry`
+    );
+  
+[0m11:09:16.436714 [debug] [Thread-4 (]: Writing runtime sql for node "model.test3.my_first_dbt_model"
+[0m11:09:16.436714 [debug] [Thread-4 (]: On model.test3.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.my_first_dbt_model"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`my_first_dbt_model`
+    
+    
+
+    OPTIONS()
+    as (
+      /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    );
+  
+[0m11:09:16.752916 [debug] [Thread-2 (]: Writing runtime sql for node "model.test3.locations"
+[0m11:09:16.752916 [debug] [Thread-2 (]: On model.test3.locations: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.locations"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`locations`
+    
+    
+
+    OPTIONS()
+    as (
+      select * from `cloudside-academy.Demo_dbt.locations`
+    );
+  
+[0m11:09:18.342499 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:658fc428-1fde-42b0-a6a6-8fc7b2df7e37&page=queryresults
+[0m11:09:18.358020 [debug] [Thread-1 (]: Timing info for model.test3.geometry (execute): 11:09:15.729191 => 11:09:18.358020
+[0m11:09:18.358020 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c5d1c16-dfc7-4cad-b8bf-1626a9c387ad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E468CE2D0>]}
+[0m11:09:18.358020 [info ] [Thread-1 (]: 1 of 5 OK created sql table model Dbt_test.geometry ............................ [[32mCREATE TABLE (1.0 rows, 134.0 Bytes processed)[0m in 2.64s]
+[0m11:09:18.358020 [debug] [Thread-1 (]: Finished running node model.test3.geometry
+[0m11:09:18.484518 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:462440ed-4eff-41ff-9e0b-37cd7017ab85&page=queryresults
+[0m11:09:18.484518 [debug] [Thread-4 (]: Timing info for model.test3.my_first_dbt_model (execute): 11:09:15.756750 => 11:09:18.484518
+[0m11:09:18.484518 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c5d1c16-dfc7-4cad-b8bf-1626a9c387ad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E46A408D0>]}
+[0m11:09:18.484518 [info ] [Thread-4 (]: 3 of 5 OK created sql table model Dbt_test.my_first_dbt_model .................. [[32mCREATE TABLE (2.0 rows, 0 processed)[0m in 2.73s]
+[0m11:09:18.484518 [debug] [Thread-4 (]: Finished running node model.test3.my_first_dbt_model
+[0m11:09:18.494590 [debug] [Thread-3 (]: Began running node model.test3.my_second_dbt_model
+[0m11:09:18.494590 [info ] [Thread-3 (]: 4 of 5 START sql view model Dbt_test.my_second_dbt_model ....................... [RUN]
+[0m11:09:18.494590 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.test3.my_second_dbt_model'
+[0m11:09:18.494590 [debug] [Thread-3 (]: Began compiling node model.test3.my_second_dbt_model
+[0m11:09:18.500647 [debug] [Thread-3 (]: Writing injected SQL for node "model.test3.my_second_dbt_model"
+[0m11:09:18.500647 [debug] [Thread-3 (]: Timing info for model.test3.my_second_dbt_model (compile): 11:09:18.494590 => 11:09:18.500647
+[0m11:09:18.500647 [debug] [Thread-3 (]: Began executing node model.test3.my_second_dbt_model
+[0m11:09:18.563290 [debug] [Thread-3 (]: Writing runtime sql for node "model.test3.my_second_dbt_model"
+[0m11:09:18.563290 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m11:09:18.578913 [debug] [Thread-3 (]: On model.test3.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.my_second_dbt_model"} */
+
+
+  create or replace view `cloudside-academy`.`Dbt_test`.`my_second_dbt_model`
+  OPTIONS()
+  as -- Use the `ref` function to select from other models
+
+select *
+from `cloudside-academy`.`Dbt_test`.`my_first_dbt_model`
+where id = 1;
+
+
+[0m11:09:18.831818 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:c4875ab7-8e2b-4fa6-ab6b-cbbe36976181&page=queryresults
+[0m11:09:18.831818 [debug] [Thread-2 (]: Timing info for model.test3.locations (execute): 11:09:15.755934 => 11:09:18.831818
+[0m11:09:18.831818 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c5d1c16-dfc7-4cad-b8bf-1626a9c387ad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E46AD0CD0>]}
+[0m11:09:18.831818 [info ] [Thread-2 (]: 2 of 5 OK created sql table model Dbt_test.locations ........................... [[32mCREATE TABLE (3.0 rows, 402.0 Bytes processed)[0m in 3.08s]
+[0m11:09:18.831818 [debug] [Thread-2 (]: Finished running node model.test3.locations
+[0m11:09:18.831818 [debug] [Thread-4 (]: Began running node model.test3.join
+[0m11:09:18.841205 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.test3.my_first_dbt_model, now model.test3.join)
+[0m11:09:18.841205 [debug] [Thread-4 (]: Began compiling node model.test3.join
+[0m11:09:18.841205 [debug] [Thread-4 (]: Writing injected SQL for node "model.test3.join"
+[0m11:09:18.841205 [debug] [Thread-4 (]: Timing info for model.test3.join (compile): 11:09:18.841205 => 11:09:18.841205
+[0m11:09:18.841205 [debug] [Thread-4 (]: Finished running node model.test3.join
+[0m11:09:18.845629 [debug] [Thread-2 (]: Began running node model.test3.dbt_geometry
+[0m11:09:18.845629 [info ] [Thread-2 (]: 5 of 5 START sql table model Dbt_test.dbt_geometry ............................. [RUN]
+[0m11:09:18.847119 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.test3.locations, now model.test3.dbt_geometry)
+[0m11:09:18.847119 [debug] [Thread-2 (]: Began compiling node model.test3.dbt_geometry
+[0m11:09:18.847119 [debug] [Thread-2 (]: Writing injected SQL for node "model.test3.dbt_geometry"
+[0m11:09:18.847119 [debug] [Thread-2 (]: Timing info for model.test3.dbt_geometry (compile): 11:09:18.847119 => 11:09:18.847119
+[0m11:09:18.847119 [debug] [Thread-2 (]: Began executing node model.test3.dbt_geometry
+[0m11:09:18.851854 [debug] [Thread-2 (]: Writing runtime sql for node "model.test3.dbt_geometry"
+[0m11:09:18.851854 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m11:09:18.879447 [debug] [Thread-2 (]: On model.test3.dbt_geometry: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.dbt_geometry"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`dbt_geometry`
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+with __dbt__cte__join as (
+
+
+select a.id as id1,a.coordinates as coordinates1,b.coordinates,b.id from `cloudside-academy`.`Dbt_test`.`geometry` a
+inner join `cloudside-academy`.`Dbt_test`.`locations` b
+on a.id = b.id
+)select * from __dbt__cte__join
+    );
+  
+[0m11:09:19.722449 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:9cb0ebc7-f8b7-4940-90ca-568c31a65509&page=queryresults
+[0m11:09:19.722449 [debug] [Thread-3 (]: Timing info for model.test3.my_second_dbt_model (execute): 11:09:18.500647 => 11:09:19.722449
+[0m11:09:19.729262 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c5d1c16-dfc7-4cad-b8bf-1626a9c387ad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E465C6ED0>]}
+[0m11:09:19.729262 [info ] [Thread-3 (]: 4 of 5 OK created sql view model Dbt_test.my_second_dbt_model .................. [[32mCREATE VIEW (0 processed)[0m in 1.23s]
+[0m11:09:19.732590 [debug] [Thread-3 (]: Finished running node model.test3.my_second_dbt_model
+[0m11:09:21.662598 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:a1750455-f8d3-4a8f-af5a-3c2e0ea83689&page=queryresults
+[0m11:09:21.662598 [debug] [Thread-2 (]: Timing info for model.test3.dbt_geometry (execute): 11:09:18.847119 => 11:09:21.662598
+[0m11:09:21.662598 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c5d1c16-dfc7-4cad-b8bf-1626a9c387ad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E469C0CD0>]}
+[0m11:09:21.662598 [info ] [Thread-2 (]: 5 of 5 OK created sql table model Dbt_test.dbt_geometry ........................ [[32mCREATE TABLE (1.0 rows, 184.0 Bytes processed)[0m in 2.82s]
+[0m11:09:21.672714 [debug] [Thread-2 (]: Finished running node model.test3.dbt_geometry
+[0m11:09:21.675296 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:09:21.675296 [debug] [MainThread]: Connection 'list_cloudside-academy' was properly closed.
+[0m11:09:21.675296 [debug] [MainThread]: Connection 'list_cloudside-academy_Dbt_test' was properly closed.
+[0m11:09:21.675296 [debug] [MainThread]: Connection 'model.test3.geometry' was properly closed.
+[0m11:09:21.675296 [debug] [MainThread]: Connection 'model.test3.dbt_geometry' was properly closed.
+[0m11:09:21.675296 [debug] [MainThread]: Connection 'model.test3.join' was properly closed.
+[0m11:09:21.675296 [debug] [MainThread]: Connection 'model.test3.my_second_dbt_model' was properly closed.
+[0m11:09:21.675296 [info ] [MainThread]: 
+[0m11:09:21.675296 [info ] [MainThread]: Finished running 4 table models, 1 view model in 0 hours 0 minutes and 8.86 seconds (8.86s).
+[0m11:09:21.678733 [debug] [MainThread]: Command end result
+[0m11:09:21.678733 [info ] [MainThread]: 
+[0m11:09:21.678733 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:09:21.678733 [info ] [MainThread]: 
+[0m11:09:21.678733 [info ] [MainThread]: Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
+[0m11:09:21.685129 [debug] [MainThread]: Command `dbt run` succeeded at 11:09:21.685129 after 9.20 seconds
+[0m11:09:21.685129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E457BBD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E3F283310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E3F524C90>]}
+[0m11:09:21.685129 [debug] [MainThread]: Flushing usage events
+[0m11:10:43.058450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADE329710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADEA5F990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADD848590>]}
+
+
+============================== 11:10:43.058450 | 2e5edeb4-64da-4cd3-a8d1-acf0577d7c42 ==============================
+[0m11:10:43.058450 [info ] [MainThread]: Running with dbt=1.5.2
+[0m11:10:43.058450 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\vishn\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\vishn\\dbt\\dbt_test\\test3\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m11:10:43.279058 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2e5edeb4-64da-4cd3-a8d1-acf0577d7c42', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADF662810>]}
+[0m11:10:43.279058 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2e5edeb4-64da-4cd3-a8d1-acf0577d7c42', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADE894110>]}
+[0m11:10:43.279058 [info ] [MainThread]: Registered adapter: bigquery=1.5.3
+[0m11:10:43.296109 [debug] [MainThread]: checksum: 2435fa7be9fcfa6ffe15da8f202ddc09867bf7d6308330064299ccb85c8646b5, vars: {}, profile: , target: , version: 1.5.2
+[0m11:10:43.326619 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m11:10:43.326619 [debug] [MainThread]: Partial parsing: updated file: test3://models\example\mart\dbt_geometry.sql
+[0m11:10:43.342310 [debug] [MainThread]: 1699: static parser successfully parsed example\mart\dbt_geometry.sql
+[0m11:10:43.358369 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.test3.example.staging.intermediate.mart
+- models.test3.example.staging.intermediate
+[0m11:10:43.360525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2e5edeb4-64da-4cd3-a8d1-acf0577d7c42', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADF9F6D50>]}
+[0m11:10:43.360525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2e5edeb4-64da-4cd3-a8d1-acf0577d7c42', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADF96B450>]}
+[0m11:10:43.370219 [info ] [MainThread]: Found 6 models, 4 tests, 0 snapshots, 0 analyses, 357 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m11:10:43.370881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2e5edeb4-64da-4cd3-a8d1-acf0577d7c42', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADABA5AD0>]}
+[0m11:10:43.371711 [info ] [MainThread]: 
+[0m11:10:43.374222 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m11:10:43.375917 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_cloudside-academy'
+[0m11:10:43.375917 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:10:45.533202 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_cloudside-academy_Dbt_test'
+[0m11:10:45.533202 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:10:46.162659 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2e5edeb4-64da-4cd3-a8d1-acf0577d7c42', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADDD90450>]}
+[0m11:10:46.162659 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m11:10:46.162659 [info ] [MainThread]: 
+[0m11:10:46.178958 [debug] [Thread-1 (]: Began running node model.test3.geometry
+[0m11:10:46.178958 [debug] [Thread-2 (]: Began running node model.test3.locations
+[0m11:10:46.178958 [debug] [Thread-3 (]: Began running node model.test3.my_first_dbt_model
+[0m11:10:46.178958 [info ] [Thread-1 (]: 1 of 5 START sql table model Dbt_test.geometry ................................. [RUN]
+[0m11:10:46.178958 [info ] [Thread-2 (]: 2 of 5 START sql table model Dbt_test.locations ................................ [RUN]
+[0m11:10:46.178958 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.test3.geometry'
+[0m11:10:46.178958 [info ] [Thread-3 (]: 3 of 5 START sql table model Dbt_test.my_first_dbt_model ....................... [RUN]
+[0m11:10:46.178958 [debug] [Thread-2 (]: Acquiring new bigquery connection 'model.test3.locations'
+[0m11:10:46.178958 [debug] [Thread-1 (]: Began compiling node model.test3.geometry
+[0m11:10:46.178958 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.test3.my_first_dbt_model'
+[0m11:10:46.178958 [debug] [Thread-2 (]: Began compiling node model.test3.locations
+[0m11:10:46.178958 [debug] [Thread-1 (]: Writing injected SQL for node "model.test3.geometry"
+[0m11:10:46.178958 [debug] [Thread-3 (]: Began compiling node model.test3.my_first_dbt_model
+[0m11:10:46.178958 [debug] [Thread-2 (]: Writing injected SQL for node "model.test3.locations"
+[0m11:10:46.195083 [debug] [Thread-3 (]: Writing injected SQL for node "model.test3.my_first_dbt_model"
+[0m11:10:46.195083 [debug] [Thread-1 (]: Timing info for model.test3.geometry (compile): 11:10:46.178958 => 11:10:46.195083
+[0m11:10:46.196196 [debug] [Thread-2 (]: Timing info for model.test3.locations (compile): 11:10:46.178958 => 11:10:46.196196
+[0m11:10:46.196909 [debug] [Thread-1 (]: Began executing node model.test3.geometry
+[0m11:10:46.196909 [debug] [Thread-3 (]: Timing info for model.test3.my_first_dbt_model (compile): 11:10:46.178958 => 11:10:46.196909
+[0m11:10:46.198022 [debug] [Thread-2 (]: Began executing node model.test3.locations
+[0m11:10:46.198022 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:10:46.198022 [debug] [Thread-3 (]: Began executing node model.test3.my_first_dbt_model
+[0m11:10:46.198022 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m11:10:46.211418 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m11:10:46.983859 [debug] [Thread-3 (]: Writing runtime sql for node "model.test3.my_first_dbt_model"
+[0m11:10:46.983859 [debug] [Thread-3 (]: On model.test3.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.my_first_dbt_model"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`my_first_dbt_model`
+    
+    
+
+    OPTIONS()
+    as (
+      /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    );
+  
+[0m11:10:47.211270 [debug] [Thread-2 (]: Writing runtime sql for node "model.test3.locations"
+[0m11:10:47.211270 [debug] [Thread-2 (]: On model.test3.locations: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.locations"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`locations`
+    
+    
+
+    OPTIONS()
+    as (
+      select * from `cloudside-academy.Demo_dbt.locations`
+    );
+  
+[0m11:10:47.240607 [debug] [Thread-1 (]: Writing runtime sql for node "model.test3.geometry"
+[0m11:10:47.242867 [debug] [Thread-1 (]: On model.test3.geometry: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.geometry"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`geometry`
+    
+    
+
+    OPTIONS()
+    as (
+      select * from `cloudside-academy.Demo_dbt.geometry`
+    );
+  
+[0m11:10:48.878354 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:6ff87e0f-acb5-41a9-a7d7-59a2826375aa&page=queryresults
+[0m11:10:48.893772 [debug] [Thread-3 (]: Timing info for model.test3.my_first_dbt_model (execute): 11:10:46.210040 => 11:10:48.893772
+[0m11:10:48.893772 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2e5edeb4-64da-4cd3-a8d1-acf0577d7c42', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADFA8A410>]}
+[0m11:10:48.893772 [info ] [Thread-3 (]: 3 of 5 OK created sql table model Dbt_test.my_first_dbt_model .................. [[32mCREATE TABLE (2.0 rows, 0 processed)[0m in 2.71s]
+[0m11:10:48.893772 [debug] [Thread-3 (]: Finished running node model.test3.my_first_dbt_model
+[0m11:10:48.893772 [debug] [Thread-4 (]: Began running node model.test3.my_second_dbt_model
+[0m11:10:48.893772 [info ] [Thread-4 (]: 4 of 5 START sql view model Dbt_test.my_second_dbt_model ....................... [RUN]
+[0m11:10:48.909318 [debug] [Thread-4 (]: Acquiring new bigquery connection 'model.test3.my_second_dbt_model'
+[0m11:10:48.909318 [debug] [Thread-4 (]: Began compiling node model.test3.my_second_dbt_model
+[0m11:10:48.909318 [debug] [Thread-4 (]: Writing injected SQL for node "model.test3.my_second_dbt_model"
+[0m11:10:48.909318 [debug] [Thread-4 (]: Timing info for model.test3.my_second_dbt_model (compile): 11:10:48.909318 => 11:10:48.909318
+[0m11:10:48.909318 [debug] [Thread-4 (]: Began executing node model.test3.my_second_dbt_model
+[0m11:10:48.956681 [debug] [Thread-4 (]: Writing runtime sql for node "model.test3.my_second_dbt_model"
+[0m11:10:48.956681 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m11:10:48.988196 [debug] [Thread-4 (]: On model.test3.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.my_second_dbt_model"} */
+
+
+  create or replace view `cloudside-academy`.`Dbt_test`.`my_second_dbt_model`
+  OPTIONS()
+  as -- Use the `ref` function to select from other models
+
+select *
+from `cloudside-academy`.`Dbt_test`.`my_first_dbt_model`
+where id = 1;
+
+
+[0m11:10:49.210770 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:d233771c-53d6-4abb-a9c2-fa9f88d59f23&page=queryresults
+[0m11:10:49.210770 [debug] [Thread-1 (]: Timing info for model.test3.geometry (execute): 11:10:46.198022 => 11:10:49.210770
+[0m11:10:49.210770 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2e5edeb4-64da-4cd3-a8d1-acf0577d7c42', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADF8E5390>]}
+[0m11:10:49.210770 [info ] [Thread-1 (]: 1 of 5 OK created sql table model Dbt_test.geometry ............................ [[32mCREATE TABLE (1.0 rows, 134.0 Bytes processed)[0m in 3.03s]
+[0m11:10:49.224286 [debug] [Thread-1 (]: Finished running node model.test3.geometry
+[0m11:10:49.416652 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:474e407d-3890-475e-bb33-3878de9e1844&page=queryresults
+[0m11:10:49.416652 [debug] [Thread-2 (]: Timing info for model.test3.locations (execute): 11:10:46.198022 => 11:10:49.416652
+[0m11:10:49.416652 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2e5edeb4-64da-4cd3-a8d1-acf0577d7c42', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADFADFA10>]}
+[0m11:10:49.416652 [info ] [Thread-2 (]: 2 of 5 OK created sql table model Dbt_test.locations ........................... [[32mCREATE TABLE (3.0 rows, 402.0 Bytes processed)[0m in 3.24s]
+[0m11:10:49.416652 [debug] [Thread-2 (]: Finished running node model.test3.locations
+[0m11:10:49.432100 [debug] [Thread-3 (]: Began running node model.test3.join
+[0m11:10:49.432100 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.test3.my_first_dbt_model, now model.test3.join)
+[0m11:10:49.432100 [debug] [Thread-3 (]: Began compiling node model.test3.join
+[0m11:10:49.432100 [debug] [Thread-3 (]: Writing injected SQL for node "model.test3.join"
+[0m11:10:49.432100 [debug] [Thread-3 (]: Timing info for model.test3.join (compile): 11:10:49.432100 => 11:10:49.432100
+[0m11:10:49.432100 [debug] [Thread-3 (]: Finished running node model.test3.join
+[0m11:10:49.432100 [debug] [Thread-2 (]: Began running node model.test3.dbt_geometry
+[0m11:10:49.432100 [info ] [Thread-2 (]: 5 of 5 START sql view model Dbt_test.dbt_geometry .............................. [RUN]
+[0m11:10:49.444204 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.test3.locations, now model.test3.dbt_geometry)
+[0m11:10:49.444204 [debug] [Thread-2 (]: Began compiling node model.test3.dbt_geometry
+[0m11:10:49.448303 [debug] [Thread-2 (]: Writing injected SQL for node "model.test3.dbt_geometry"
+[0m11:10:49.448303 [debug] [Thread-2 (]: Timing info for model.test3.dbt_geometry (compile): 11:10:49.444204 => 11:10:49.448303
+[0m11:10:49.448303 [debug] [Thread-2 (]: Began executing node model.test3.dbt_geometry
+[0m11:10:49.448303 [debug] [Thread-2 (]: Timing info for model.test3.dbt_geometry (execute): 11:10:49.448303 => 11:10:49.448303
+[0m11:10:49.448303 [debug] [Thread-2 (]: Compilation Error in model dbt_geometry (models\example\mart\dbt_geometry.sql)
+  Trying to create view `cloudside-academy`.`Dbt_test`.`dbt_geometry`, but it currently exists as a table. Either drop `cloudside-academy`.`Dbt_test`.`dbt_geometry` manually, or run dbt with `--full-refresh` and dbt will drop it for you.
+  
+  > in macro bigquery__handle_existing_table (macros\materializations\view.sql)
+  > called by macro handle_existing_table (macros\materializations\models\view\helpers.sql)
+  > called by macro create_or_replace_view (macros\materializations\models\view\create_or_replace_view.sql)
+  > called by macro materialization_view_bigquery (macros\materializations\view.sql)
+  > called by model dbt_geometry (models\example\mart\dbt_geometry.sql)
+[0m11:10:49.448303 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2e5edeb4-64da-4cd3-a8d1-acf0577d7c42', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADF9C8B50>]}
+[0m11:10:49.448303 [error] [Thread-2 (]: 5 of 5 ERROR creating sql view model Dbt_test.dbt_geometry ..................... [[31mERROR[0m in 0.00s]
+[0m11:10:49.448303 [debug] [Thread-2 (]: Finished running node model.test3.dbt_geometry
+[0m11:10:50.114611 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:62da867b-86b7-49b1-81c5-3dd4fbb66214&page=queryresults
+[0m11:10:50.117508 [debug] [Thread-4 (]: Timing info for model.test3.my_second_dbt_model (execute): 11:10:48.909318 => 11:10:50.117508
+[0m11:10:50.118536 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2e5edeb4-64da-4cd3-a8d1-acf0577d7c42', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADF910C90>]}
+[0m11:10:50.119897 [info ] [Thread-4 (]: 4 of 5 OK created sql view model Dbt_test.my_second_dbt_model .................. [[32mCREATE VIEW (0 processed)[0m in 1.21s]
+[0m11:10:50.120927 [debug] [Thread-4 (]: Finished running node model.test3.my_second_dbt_model
+[0m11:10:50.122310 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:10:50.122310 [debug] [MainThread]: Connection 'list_cloudside-academy' was properly closed.
+[0m11:10:50.122310 [debug] [MainThread]: Connection 'list_cloudside-academy_Dbt_test' was properly closed.
+[0m11:10:50.122310 [debug] [MainThread]: Connection 'model.test3.geometry' was properly closed.
+[0m11:10:50.122310 [debug] [MainThread]: Connection 'model.test3.dbt_geometry' was properly closed.
+[0m11:10:50.122310 [debug] [MainThread]: Connection 'model.test3.join' was properly closed.
+[0m11:10:50.122310 [debug] [MainThread]: Connection 'model.test3.my_second_dbt_model' was properly closed.
+[0m11:10:50.122310 [info ] [MainThread]: 
+[0m11:10:50.122310 [info ] [MainThread]: Finished running 3 table models, 2 view models in 0 hours 0 minutes and 6.75 seconds (6.75s).
+[0m11:10:50.122310 [debug] [MainThread]: Command end result
+[0m11:10:50.122310 [info ] [MainThread]: 
+[0m11:10:50.122310 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m11:10:50.132373 [info ] [MainThread]: 
+[0m11:10:50.132373 [error] [MainThread]: [33mCompilation Error in model dbt_geometry (models\example\mart\dbt_geometry.sql)[0m
+[0m11:10:50.132373 [error] [MainThread]:   Trying to create view `cloudside-academy`.`Dbt_test`.`dbt_geometry`, but it currently exists as a table. Either drop `cloudside-academy`.`Dbt_test`.`dbt_geometry` manually, or run dbt with `--full-refresh` and dbt will drop it for you.
+[0m11:10:50.132373 [error] [MainThread]:   
+[0m11:10:50.135627 [error] [MainThread]:   > in macro bigquery__handle_existing_table (macros\materializations\view.sql)
+[0m11:10:50.135627 [error] [MainThread]:   > called by macro handle_existing_table (macros\materializations\models\view\helpers.sql)
+[0m11:10:50.135627 [error] [MainThread]:   > called by macro create_or_replace_view (macros\materializations\models\view\create_or_replace_view.sql)
+[0m11:10:50.135627 [error] [MainThread]:   > called by macro materialization_view_bigquery (macros\materializations\view.sql)
+[0m11:10:50.135627 [error] [MainThread]:   > called by model dbt_geometry (models\example\mart\dbt_geometry.sql)
+[0m11:10:50.135627 [info ] [MainThread]: 
+[0m11:10:50.135627 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=1 SKIP=0 TOTAL=5
+[0m11:10:50.135627 [debug] [MainThread]: Command `dbt run` failed at 11:10:50.135627 after 7.09 seconds
+[0m11:10:50.138977 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADEE6FB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADE570B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ADE86B910>]}
+[0m11:10:50.138977 [debug] [MainThread]: Flushing usage events
+[0m11:14:34.530548 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C0572F0550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C0572F11D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C0572F1C90>]}
+
+
+============================== 11:14:34.533055 | c0592d0e-95b8-4a0d-9c4a-50ca0e6c6d7b ==============================
+[0m11:14:34.533055 [info ] [MainThread]: Running with dbt=1.5.2
+[0m11:14:34.533055 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\vishn\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\vishn\\dbt\\dbt_test\\test3\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m11:14:34.737312 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c0592d0e-95b8-4a0d-9c4a-50ca0e6c6d7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C056F9B890>]}
+[0m11:14:34.752932 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c0592d0e-95b8-4a0d-9c4a-50ca0e6c6d7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C0580F2750>]}
+[0m11:14:34.752932 [info ] [MainThread]: Registered adapter: bigquery=1.5.3
+[0m11:14:34.759158 [debug] [MainThread]: checksum: 2435fa7be9fcfa6ffe15da8f202ddc09867bf7d6308330064299ccb85c8646b5, vars: {}, profile: , target: , version: 1.5.2
+[0m11:14:34.784442 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m11:14:34.784442 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m11:14:34.784442 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.test3.example.staging.intermediate.mart
+- models.test3.example.staging.intermediate
+[0m11:14:34.799959 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c0592d0e-95b8-4a0d-9c4a-50ca0e6c6d7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C058444F10>]}
+[0m11:14:34.799959 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c0592d0e-95b8-4a0d-9c4a-50ca0e6c6d7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C0583ABB50>]}
+[0m11:14:34.799959 [info ] [MainThread]: Found 6 models, 4 tests, 0 snapshots, 0 analyses, 357 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m11:14:34.799959 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c0592d0e-95b8-4a0d-9c4a-50ca0e6c6d7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C053645AD0>]}
+[0m11:14:34.799959 [info ] [MainThread]: 
+[0m11:14:34.799959 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m11:14:34.799959 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_cloudside-academy'
+[0m11:14:34.799959 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:14:36.964843 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_cloudside-academy_Dbt_test'
+[0m11:14:36.964843 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:14:37.543563 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c0592d0e-95b8-4a0d-9c4a-50ca0e6c6d7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C056834510>]}
+[0m11:14:37.543563 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m11:14:37.543563 [info ] [MainThread]: 
+[0m11:14:37.559083 [debug] [Thread-1 (]: Began running node model.test3.geometry
+[0m11:14:37.559083 [debug] [Thread-2 (]: Began running node model.test3.locations
+[0m11:14:37.559083 [debug] [Thread-3 (]: Began running node model.test3.my_first_dbt_model
+[0m11:14:37.559083 [info ] [Thread-1 (]: 1 of 5 START sql table model Dbt_test.geometry ................................. [RUN]
+[0m11:14:37.566593 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.test3.geometry'
+[0m11:14:37.566593 [info ] [Thread-2 (]: 2 of 5 START sql table model Dbt_test.locations ................................ [RUN]
+[0m11:14:37.566593 [debug] [Thread-1 (]: Began compiling node model.test3.geometry
+[0m11:14:37.566593 [info ] [Thread-3 (]: 3 of 5 START sql table model Dbt_test.my_first_dbt_model ....................... [RUN]
+[0m11:14:37.566593 [debug] [Thread-2 (]: Acquiring new bigquery connection 'model.test3.locations'
+[0m11:14:37.566593 [debug] [Thread-1 (]: Writing injected SQL for node "model.test3.geometry"
+[0m11:14:37.566593 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.test3.my_first_dbt_model'
+[0m11:14:37.575130 [debug] [Thread-2 (]: Began compiling node model.test3.locations
+[0m11:14:37.575130 [debug] [Thread-3 (]: Began compiling node model.test3.my_first_dbt_model
+[0m11:14:37.575130 [debug] [Thread-1 (]: Timing info for model.test3.geometry (compile): 11:14:37.566593 => 11:14:37.575130
+[0m11:14:37.575130 [debug] [Thread-2 (]: Writing injected SQL for node "model.test3.locations"
+[0m11:14:37.575130 [debug] [Thread-3 (]: Writing injected SQL for node "model.test3.my_first_dbt_model"
+[0m11:14:37.575130 [debug] [Thread-1 (]: Began executing node model.test3.geometry
+[0m11:14:37.575130 [debug] [Thread-2 (]: Timing info for model.test3.locations (compile): 11:14:37.575130 => 11:14:37.575130
+[0m11:14:37.590775 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:14:37.590775 [debug] [Thread-2 (]: Began executing node model.test3.locations
+[0m11:14:37.590775 [debug] [Thread-3 (]: Timing info for model.test3.my_first_dbt_model (compile): 11:14:37.575130 => 11:14:37.590775
+[0m11:14:37.590775 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m11:14:37.590775 [debug] [Thread-3 (]: Began executing node model.test3.my_first_dbt_model
+[0m11:14:37.590775 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m11:14:38.174017 [debug] [Thread-3 (]: Writing runtime sql for node "model.test3.my_first_dbt_model"
+[0m11:14:38.174017 [debug] [Thread-3 (]: On model.test3.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.my_first_dbt_model"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`my_first_dbt_model`
+    
+    
+
+    OPTIONS()
+    as (
+      /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    );
+  
+[0m11:14:38.302442 [debug] [Thread-1 (]: Writing runtime sql for node "model.test3.geometry"
+[0m11:14:38.302442 [debug] [Thread-1 (]: On model.test3.geometry: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.geometry"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`geometry`
+    
+    
+
+    OPTIONS()
+    as (
+      select * from `cloudside-academy.Demo_dbt.geometry`
+    );
+  
+[0m11:14:38.665445 [debug] [Thread-2 (]: Writing runtime sql for node "model.test3.locations"
+[0m11:14:38.665445 [debug] [Thread-2 (]: On model.test3.locations: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.locations"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`locations`
+    
+    
+
+    OPTIONS()
+    as (
+      select * from `cloudside-academy.Demo_dbt.locations`
+    );
+  
+[0m11:14:40.203156 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:cf6d663c-86da-4a11-8b3c-b58d3195596d&page=queryresults
+[0m11:14:40.218662 [debug] [Thread-3 (]: Timing info for model.test3.my_first_dbt_model (execute): 11:14:37.590775 => 11:14:40.218662
+[0m11:14:40.218662 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c0592d0e-95b8-4a0d-9c4a-50ca0e6c6d7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C0583610D0>]}
+[0m11:14:40.218662 [info ] [Thread-3 (]: 3 of 5 OK created sql table model Dbt_test.my_first_dbt_model .................. [[32mCREATE TABLE (2.0 rows, 0 processed)[0m in 2.65s]
+[0m11:14:40.225338 [debug] [Thread-3 (]: Finished running node model.test3.my_first_dbt_model
+[0m11:14:40.225338 [debug] [Thread-4 (]: Began running node model.test3.my_second_dbt_model
+[0m11:14:40.225338 [info ] [Thread-4 (]: 4 of 5 START sql view model Dbt_test.my_second_dbt_model ....................... [RUN]
+[0m11:14:40.225338 [debug] [Thread-4 (]: Acquiring new bigquery connection 'model.test3.my_second_dbt_model'
+[0m11:14:40.227288 [debug] [Thread-4 (]: Began compiling node model.test3.my_second_dbt_model
+[0m11:14:40.227288 [debug] [Thread-4 (]: Writing injected SQL for node "model.test3.my_second_dbt_model"
+[0m11:14:40.227288 [debug] [Thread-4 (]: Timing info for model.test3.my_second_dbt_model (compile): 11:14:40.227288 => 11:14:40.227288
+[0m11:14:40.227288 [debug] [Thread-4 (]: Began executing node model.test3.my_second_dbt_model
+[0m11:14:40.234407 [debug] [Thread-4 (]: Writing runtime sql for node "model.test3.my_second_dbt_model"
+[0m11:14:40.234407 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m11:14:40.265765 [debug] [Thread-4 (]: On model.test3.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.my_second_dbt_model"} */
+
+
+  create or replace view `cloudside-academy`.`Dbt_test`.`my_second_dbt_model`
+  OPTIONS()
+  as -- Use the `ref` function to select from other models
+
+select *
+from `cloudside-academy`.`Dbt_test`.`my_first_dbt_model`
+where id = 1;
+
+
+[0m11:14:40.361456 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:607e24f8-342b-44b7-bfd4-84c8db1c0a3a&page=queryresults
+[0m11:14:40.361456 [debug] [Thread-1 (]: Timing info for model.test3.geometry (execute): 11:14:37.575130 => 11:14:40.361456
+[0m11:14:40.361456 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c0592d0e-95b8-4a0d-9c4a-50ca0e6c6d7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C05856F7D0>]}
+[0m11:14:40.361456 [info ] [Thread-1 (]: 1 of 5 OK created sql table model Dbt_test.geometry ............................ [[32mCREATE TABLE (1.0 rows, 134.0 Bytes processed)[0m in 2.79s]
+[0m11:14:40.361456 [debug] [Thread-1 (]: Finished running node model.test3.geometry
+[0m11:14:40.733688 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:f5b6647e-1695-4e05-80a5-e42015f5b47d&page=queryresults
+[0m11:14:40.739698 [debug] [Thread-2 (]: Timing info for model.test3.locations (execute): 11:14:37.590775 => 11:14:40.739698
+[0m11:14:40.739698 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c0592d0e-95b8-4a0d-9c4a-50ca0e6c6d7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C0572E7A50>]}
+[0m11:14:40.739698 [info ] [Thread-2 (]: 2 of 5 OK created sql table model Dbt_test.locations ........................... [[32mCREATE TABLE (3.0 rows, 402.0 Bytes processed)[0m in 3.17s]
+[0m11:14:40.743000 [debug] [Thread-2 (]: Finished running node model.test3.locations
+[0m11:14:40.743000 [debug] [Thread-3 (]: Began running node model.test3.join
+[0m11:14:40.743000 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.test3.my_first_dbt_model, now model.test3.join)
+[0m11:14:40.743000 [debug] [Thread-3 (]: Began compiling node model.test3.join
+[0m11:14:40.743000 [debug] [Thread-3 (]: Writing injected SQL for node "model.test3.join"
+[0m11:14:40.747730 [debug] [Thread-3 (]: Timing info for model.test3.join (compile): 11:14:40.743000 => 11:14:40.747015
+[0m11:14:40.747730 [debug] [Thread-3 (]: Finished running node model.test3.join
+[0m11:14:40.747730 [debug] [Thread-2 (]: Began running node model.test3.dbt_geometry
+[0m11:14:40.747730 [info ] [Thread-2 (]: 5 of 5 START sql view model Dbt_test.dbt_geometry .............................. [RUN]
+[0m11:14:40.747730 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.test3.locations, now model.test3.dbt_geometry)
+[0m11:14:40.747730 [debug] [Thread-2 (]: Began compiling node model.test3.dbt_geometry
+[0m11:14:40.747730 [debug] [Thread-2 (]: Writing injected SQL for node "model.test3.dbt_geometry"
+[0m11:14:40.747730 [debug] [Thread-2 (]: Timing info for model.test3.dbt_geometry (compile): 11:14:40.747730 => 11:14:40.747730
+[0m11:14:40.747730 [debug] [Thread-2 (]: Began executing node model.test3.dbt_geometry
+[0m11:14:40.755843 [debug] [Thread-2 (]: Writing runtime sql for node "model.test3.dbt_geometry"
+[0m11:14:40.755843 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m11:14:40.782047 [debug] [Thread-2 (]: On model.test3.dbt_geometry: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.dbt_geometry"} */
+
+
+  create or replace view `cloudside-academy`.`Dbt_test`.`dbt_geometry`
+  OPTIONS()
+  as 
+
+with __dbt__cte__join as (
+
+
+select a.id as id1,a.coordinates as coordinates1,b.coordinates,b.id from `cloudside-academy`.`Dbt_test`.`geometry` a
+inner join `cloudside-academy`.`Dbt_test`.`locations` b
+on a.id = b.id
+)select * from __dbt__cte__join;
+
+
+[0m11:14:41.343031 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:f38ebfaa-b2e7-4c00-bf8d-e9b57f21d741&page=queryresults
+[0m11:14:41.343031 [debug] [Thread-4 (]: Timing info for model.test3.my_second_dbt_model (execute): 11:14:40.227288 => 11:14:41.343031
+[0m11:14:41.343031 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c0592d0e-95b8-4a0d-9c4a-50ca0e6c6d7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C05844B750>]}
+[0m11:14:41.343031 [info ] [Thread-4 (]: 4 of 5 OK created sql view model Dbt_test.my_second_dbt_model .................. [[32mCREATE VIEW (0 processed)[0m in 1.12s]
+[0m11:14:41.355425 [debug] [Thread-4 (]: Finished running node model.test3.my_second_dbt_model
+[0m11:14:41.835008 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:7a228901-501c-4717-9bf4-2384a6078145&page=queryresults
+[0m11:14:41.835008 [debug] [Thread-2 (]: Timing info for model.test3.dbt_geometry (execute): 11:14:40.747730 => 11:14:41.835008
+[0m11:14:41.835008 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c0592d0e-95b8-4a0d-9c4a-50ca0e6c6d7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C058537990>]}
+[0m11:14:41.835008 [info ] [Thread-2 (]: 5 of 5 OK created sql view model Dbt_test.dbt_geometry ......................... [[32mCREATE VIEW (0 processed)[0m in 1.09s]
+[0m11:14:41.849528 [debug] [Thread-2 (]: Finished running node model.test3.dbt_geometry
+[0m11:14:41.849528 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:14:41.849528 [debug] [MainThread]: Connection 'list_cloudside-academy' was properly closed.
+[0m11:14:41.849528 [debug] [MainThread]: Connection 'list_cloudside-academy_Dbt_test' was properly closed.
+[0m11:14:41.849528 [debug] [MainThread]: Connection 'model.test3.geometry' was properly closed.
+[0m11:14:41.849528 [debug] [MainThread]: Connection 'model.test3.dbt_geometry' was properly closed.
+[0m11:14:41.849528 [debug] [MainThread]: Connection 'model.test3.join' was properly closed.
+[0m11:14:41.849528 [debug] [MainThread]: Connection 'model.test3.my_second_dbt_model' was properly closed.
+[0m11:14:41.849528 [info ] [MainThread]: 
+[0m11:14:41.849528 [info ] [MainThread]: Finished running 3 table models, 2 view models in 0 hours 0 minutes and 7.05 seconds (7.05s).
+[0m11:14:41.849528 [debug] [MainThread]: Command end result
+[0m11:14:41.865168 [info ] [MainThread]: 
+[0m11:14:41.865168 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:14:41.865168 [info ] [MainThread]: 
+[0m11:14:41.880910 [info ] [MainThread]: Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
+[0m11:14:41.880910 [debug] [MainThread]: Command `dbt run` succeeded at 11:14:41.880910 after 7.37 seconds
+[0m11:14:41.880910 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C0578FEFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C050FF4C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C050D53310>]}
+[0m11:14:41.880910 [debug] [MainThread]: Flushing usage events
+[0m11:17:14.831888 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021595E77C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021593AD3450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021595FA3890>]}
+
+
+============================== 11:17:14.831888 | d5a31e82-ff5c-4f37-acac-ca33a902c0dd ==============================
+[0m11:17:14.831888 [info ] [MainThread]: Running with dbt=1.5.2
+[0m11:17:14.847386 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\vishn\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\vishn\\dbt\\dbt_test\\test3\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m11:17:15.052747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd5a31e82-ff5c-4f37-acac-ca33a902c0dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021597092D50>]}
+[0m11:17:15.052747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd5a31e82-ff5c-4f37-acac-ca33a902c0dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021595DE39D0>]}
+[0m11:17:15.052747 [info ] [MainThread]: Registered adapter: bigquery=1.5.3
+[0m11:17:15.067855 [debug] [MainThread]: checksum: 2435fa7be9fcfa6ffe15da8f202ddc09867bf7d6308330064299ccb85c8646b5, vars: {}, profile: , target: , version: 1.5.2
+[0m11:17:15.067855 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m11:17:15.067855 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'd5a31e82-ff5c-4f37-acac-ca33a902c0dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215974109D0>]}
+[0m11:17:15.478129 [debug] [MainThread]: 1699: static parser successfully parsed example\my_first_dbt_model.sql
+[0m11:17:15.478129 [debug] [MainThread]: 1699: static parser successfully parsed example\my_second_dbt_model.sql
+[0m11:17:15.478129 [debug] [MainThread]: 1699: static parser successfully parsed example\intermediate\join.sql
+[0m11:17:15.478129 [debug] [MainThread]: 1699: static parser successfully parsed example\mart\dbt_geometry.sql
+[0m11:17:15.493755 [debug] [MainThread]: 1699: static parser successfully parsed example\staging\geometry.sql
+[0m11:17:15.493755 [debug] [MainThread]: 1699: static parser successfully parsed example\staging\locations.sql
+[0m11:17:15.525007 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.test3.example.staging.intermediate.mart
+- models.test3.example.staging.intermediate
+[0m11:17:15.540681 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd5a31e82-ff5c-4f37-acac-ca33a902c0dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021597346DD0>]}
+[0m11:17:15.540681 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd5a31e82-ff5c-4f37-acac-ca33a902c0dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215974DCCD0>]}
+[0m11:17:15.540681 [info ] [MainThread]: Found 6 models, 4 tests, 0 snapshots, 0 analyses, 357 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m11:17:15.540681 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd5a31e82-ff5c-4f37-acac-ca33a902c0dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021592565C50>]}
+[0m11:17:15.540681 [info ] [MainThread]: 
+[0m11:17:15.540681 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m11:17:15.553230 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_cloudside-academy'
+[0m11:17:15.553230 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:17:17.661972 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_cloudside-academy_Dbt_test'
+[0m11:17:17.661972 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:17:18.351951 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd5a31e82-ff5c-4f37-acac-ca33a902c0dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215973F8ED0>]}
+[0m11:17:18.351951 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m11:17:18.351951 [info ] [MainThread]: 
+[0m11:17:18.360555 [debug] [Thread-1 (]: Began running node model.test3.geometry
+[0m11:17:18.369767 [debug] [Thread-2 (]: Began running node model.test3.locations
+[0m11:17:18.369767 [debug] [Thread-3 (]: Began running node model.test3.my_first_dbt_model
+[0m11:17:18.368177 [info ] [Thread-1 (]: 1 of 5 START sql view model Dbt_test.geometry .................................. [RUN]
+[0m11:17:18.369767 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.test3.geometry'
+[0m11:17:18.369767 [info ] [Thread-2 (]: 2 of 5 START sql view model Dbt_test.locations ................................. [RUN]
+[0m11:17:18.369767 [debug] [Thread-1 (]: Began compiling node model.test3.geometry
+[0m11:17:18.369767 [debug] [Thread-2 (]: Acquiring new bigquery connection 'model.test3.locations'
+[0m11:17:18.369767 [info ] [Thread-3 (]: 3 of 5 START sql table model Dbt_test.my_first_dbt_model ....................... [RUN]
+[0m11:17:18.375306 [debug] [Thread-1 (]: Writing injected SQL for node "model.test3.geometry"
+[0m11:17:18.375306 [debug] [Thread-2 (]: Began compiling node model.test3.locations
+[0m11:17:18.375306 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.test3.my_first_dbt_model'
+[0m11:17:18.375306 [debug] [Thread-2 (]: Writing injected SQL for node "model.test3.locations"
+[0m11:17:18.375306 [debug] [Thread-1 (]: Timing info for model.test3.geometry (compile): 11:17:18.375306 => 11:17:18.375306
+[0m11:17:18.375306 [debug] [Thread-3 (]: Began compiling node model.test3.my_first_dbt_model
+[0m11:17:18.375306 [debug] [Thread-1 (]: Began executing node model.test3.geometry
+[0m11:17:18.375306 [debug] [Thread-2 (]: Timing info for model.test3.locations (compile): 11:17:18.375306 => 11:17:18.375306
+[0m11:17:18.383813 [debug] [Thread-3 (]: Writing injected SQL for node "model.test3.my_first_dbt_model"
+[0m11:17:18.399549 [debug] [Thread-1 (]: Writing runtime sql for node "model.test3.geometry"
+[0m11:17:18.399549 [debug] [Thread-2 (]: Began executing node model.test3.locations
+[0m11:17:18.399549 [debug] [Thread-3 (]: Timing info for model.test3.my_first_dbt_model (compile): 11:17:18.375306 => 11:17:18.399549
+[0m11:17:18.399549 [debug] [Thread-2 (]: Writing runtime sql for node "model.test3.locations"
+[0m11:17:18.399549 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:17:18.399549 [debug] [Thread-3 (]: Began executing node model.test3.my_first_dbt_model
+[0m11:17:18.399549 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m11:17:18.415180 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m11:17:18.446319 [debug] [Thread-2 (]: On model.test3.locations: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.locations"} */
+
+
+  create or replace view `cloudside-academy`.`Dbt_test`.`locations`
+  OPTIONS()
+  as select * from `cloudside-academy.Demo_dbt.locations`;
+
+
+[0m11:17:18.446319 [debug] [Thread-1 (]: On model.test3.geometry: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.geometry"} */
+
+
+  create or replace view `cloudside-academy`.`Dbt_test`.`geometry`
+  OPTIONS()
+  as select * from `cloudside-academy.Demo_dbt.geometry`;
+
+
+[0m11:17:19.407047 [debug] [Thread-3 (]: Writing runtime sql for node "model.test3.my_first_dbt_model"
+[0m11:17:19.407047 [debug] [Thread-3 (]: On model.test3.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.my_first_dbt_model"} */
+
+  
+    
+
+    create or replace table `cloudside-academy`.`Dbt_test`.`my_first_dbt_model`
+    
+    
+
+    OPTIONS()
+    as (
+      /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    );
+  
+[0m11:17:19.612505 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:024f9bdf-93e5-4a9d-9f36-c729d9e2c1d1&page=queryresults
+[0m11:17:19.612505 [debug] [Thread-2 (]: Timing info for model.test3.locations (execute): 11:17:18.399549 => 11:17:19.612505
+[0m11:17:19.612505 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd5a31e82-ff5c-4f37-acac-ca33a902c0dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215973B1A50>]}
+[0m11:17:19.612505 [info ] [Thread-2 (]: 2 of 5 OK created sql view model Dbt_test.locations ............................ [[32mCREATE VIEW (0 processed)[0m in 1.24s]
+[0m11:17:19.628026 [debug] [Thread-2 (]: Finished running node model.test3.locations
+[0m11:17:19.643837 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:2d2dec13-8ef7-49bc-97b4-c06b4d6c5f71&page=queryresults
+[0m11:17:19.643837 [debug] [Thread-1 (]: Timing info for model.test3.geometry (execute): 11:17:18.383813 => 11:17:19.643837
+[0m11:17:19.643837 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd5a31e82-ff5c-4f37-acac-ca33a902c0dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002159748FA50>]}
+[0m11:17:19.643837 [info ] [Thread-1 (]: 1 of 5 OK created sql view model Dbt_test.geometry ............................. [[32mCREATE VIEW (0 processed)[0m in 1.27s]
+[0m11:17:19.643837 [debug] [Thread-1 (]: Finished running node model.test3.geometry
+[0m11:17:19.643837 [debug] [Thread-4 (]: Began running node model.test3.join
+[0m11:17:19.643837 [debug] [Thread-4 (]: Acquiring new bigquery connection 'model.test3.join'
+[0m11:17:19.643837 [debug] [Thread-4 (]: Began compiling node model.test3.join
+[0m11:17:19.643837 [debug] [Thread-4 (]: Writing injected SQL for node "model.test3.join"
+[0m11:17:19.643837 [debug] [Thread-4 (]: Timing info for model.test3.join (compile): 11:17:19.643837 => 11:17:19.643837
+[0m11:17:19.643837 [debug] [Thread-4 (]: Finished running node model.test3.join
+[0m11:17:19.643837 [debug] [Thread-1 (]: Began running node model.test3.dbt_geometry
+[0m11:17:19.659300 [info ] [Thread-1 (]: 4 of 5 START sql view model Dbt_test.dbt_geometry .............................. [RUN]
+[0m11:17:19.659300 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.test3.geometry, now model.test3.dbt_geometry)
+[0m11:17:19.659300 [debug] [Thread-1 (]: Began compiling node model.test3.dbt_geometry
+[0m11:17:19.660601 [debug] [Thread-1 (]: Writing injected SQL for node "model.test3.dbt_geometry"
+[0m11:17:19.660601 [debug] [Thread-1 (]: Timing info for model.test3.dbt_geometry (compile): 11:17:19.660601 => 11:17:19.660601
+[0m11:17:19.660601 [debug] [Thread-1 (]: Began executing node model.test3.dbt_geometry
+[0m11:17:19.660601 [debug] [Thread-1 (]: Writing runtime sql for node "model.test3.dbt_geometry"
+[0m11:17:19.666229 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m11:17:19.692660 [debug] [Thread-1 (]: On model.test3.dbt_geometry: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.dbt_geometry"} */
+
+
+  create or replace view `cloudside-academy`.`Dbt_test`.`dbt_geometry`
+  OPTIONS()
+  as 
+
+with __dbt__cte__join as (
+
+
+select a.id as id1,a.coordinates as coordinates1,b.coordinates,b.id from `cloudside-academy`.`Dbt_test`.`geometry` a
+inner join `cloudside-academy`.`Dbt_test`.`locations` b
+on a.id = b.id
+)select * from __dbt__cte__join;
+
+
+[0m11:17:20.781448 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:67287a3b-608a-4818-8517-ac2d48b80401&page=queryresults
+[0m11:17:20.797240 [debug] [Thread-1 (]: Timing info for model.test3.dbt_geometry (execute): 11:17:19.660601 => 11:17:20.797240
+[0m11:17:20.797240 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd5a31e82-ff5c-4f37-acac-ca33a902c0dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215975409D0>]}
+[0m11:17:20.797240 [info ] [Thread-1 (]: 4 of 5 OK created sql view model Dbt_test.dbt_geometry ......................... [[32mCREATE VIEW (0 processed)[0m in 1.14s]
+[0m11:17:20.797240 [debug] [Thread-1 (]: Finished running node model.test3.dbt_geometry
+[0m11:17:21.414299 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:6cbc49bf-109e-478d-9319-35fc691a6f54&page=queryresults
+[0m11:17:21.414299 [debug] [Thread-3 (]: Timing info for model.test3.my_first_dbt_model (execute): 11:17:18.399549 => 11:17:21.414299
+[0m11:17:21.414299 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd5a31e82-ff5c-4f37-acac-ca33a902c0dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021597487890>]}
+[0m11:17:21.414299 [info ] [Thread-3 (]: 3 of 5 OK created sql table model Dbt_test.my_first_dbt_model .................. [[32mCREATE TABLE (2.0 rows, 0 processed)[0m in 3.04s]
+[0m11:17:21.414299 [debug] [Thread-3 (]: Finished running node model.test3.my_first_dbt_model
+[0m11:17:21.414299 [debug] [Thread-4 (]: Began running node model.test3.my_second_dbt_model
+[0m11:17:21.426269 [info ] [Thread-4 (]: 5 of 5 START sql view model Dbt_test.my_second_dbt_model ....................... [RUN]
+[0m11:17:21.426269 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.test3.join, now model.test3.my_second_dbt_model)
+[0m11:17:21.426269 [debug] [Thread-4 (]: Began compiling node model.test3.my_second_dbt_model
+[0m11:17:21.430397 [debug] [Thread-4 (]: Writing injected SQL for node "model.test3.my_second_dbt_model"
+[0m11:17:21.430397 [debug] [Thread-4 (]: Timing info for model.test3.my_second_dbt_model (compile): 11:17:21.426269 => 11:17:21.430397
+[0m11:17:21.430397 [debug] [Thread-4 (]: Began executing node model.test3.my_second_dbt_model
+[0m11:17:21.430397 [debug] [Thread-4 (]: Writing runtime sql for node "model.test3.my_second_dbt_model"
+[0m11:17:21.430397 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m11:17:21.461985 [debug] [Thread-4 (]: On model.test3.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.5.2", "profile_name": "test3", "target_name": "dev", "node_id": "model.test3.my_second_dbt_model"} */
+
+
+  create or replace view `cloudside-academy`.`Dbt_test`.`my_second_dbt_model`
+  OPTIONS()
+  as -- Use the `ref` function to select from other models
+
+select *
+from `cloudside-academy`.`Dbt_test`.`my_first_dbt_model`
+where id = 1;
+
+
+[0m11:17:22.582469 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cloudside-academy&j=bq:asia-south1:0ece3638-5fc0-41cc-94ef-7127dd6d5f24&page=queryresults
+[0m11:17:22.582469 [debug] [Thread-4 (]: Timing info for model.test3.my_second_dbt_model (execute): 11:17:21.430397 => 11:17:22.582469
+[0m11:17:22.582469 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd5a31e82-ff5c-4f37-acac-ca33a902c0dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215974EBE90>]}
+[0m11:17:22.582469 [info ] [Thread-4 (]: 5 of 5 OK created sql view model Dbt_test.my_second_dbt_model .................. [[32mCREATE VIEW (0 processed)[0m in 1.16s]
+[0m11:17:22.582469 [debug] [Thread-4 (]: Finished running node model.test3.my_second_dbt_model
+[0m11:17:22.593387 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:17:22.593387 [debug] [MainThread]: Connection 'list_cloudside-academy' was properly closed.
+[0m11:17:22.593387 [debug] [MainThread]: Connection 'list_cloudside-academy_Dbt_test' was properly closed.
+[0m11:17:22.593387 [debug] [MainThread]: Connection 'model.test3.dbt_geometry' was properly closed.
+[0m11:17:22.593387 [debug] [MainThread]: Connection 'model.test3.locations' was properly closed.
+[0m11:17:22.593387 [debug] [MainThread]: Connection 'model.test3.my_first_dbt_model' was properly closed.
+[0m11:17:22.593387 [debug] [MainThread]: Connection 'model.test3.my_second_dbt_model' was properly closed.
+[0m11:17:22.598526 [info ] [MainThread]: 
+[0m11:17:22.600142 [info ] [MainThread]: Finished running 4 view models, 1 table model in 0 hours 0 minutes and 7.06 seconds (7.06s).
+[0m11:17:22.600142 [debug] [MainThread]: Command end result
+[0m11:17:22.600142 [info ] [MainThread]: 
+[0m11:17:22.600142 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:17:22.600142 [info ] [MainThread]: 
+[0m11:17:22.600142 [info ] [MainThread]: Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
+[0m11:17:22.600142 [debug] [MainThread]: Command `dbt run` succeeded at 11:17:22.600142 after 7.79 seconds
+[0m11:17:22.600142 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002158FE54C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021596A87C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002159600D8D0>]}
+[0m11:17:22.600142 [debug] [MainThread]: Flushing usage events
